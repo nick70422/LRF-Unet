@@ -1,0 +1,2635 @@
+(nnunet) nick70422@pq:/mnt/c/Nick/研究/medical/code/SAR-U-Net-liver-segmentation-master$ ./train_5fold.sh
+Processing fold1
+Epoch: 1
+learning rate: 0.01
+Epoch 1: 100%|████████████████████████████████████████████| 177/177 [01:27<00:00,  2.02batch/s, loss=0.0895, acc=0.9637]
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.08batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+0,0.20132058972524383,0.9337833857132216,0.10873866029256998,0.9610740306765534
+End of the epoch:
+tr loss: 0.2013205897252438,tr accurary: 0.9338
+val loss: 0.1087386602925700,val accuracy: 0.9611
+Time taken: 94.24 seconds
+estimated time to finish: 50 epochs
+Epoch: 2
+learning rate: 0.01
+Epoch 2: 100%|████████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0781, acc=0.9675]
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.05batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+1,0.10191672966726083,0.9632001111736406,0.09472773258769235,0.962563292924748
+End of the epoch:
+tr loss: 0.1019167296672608,tr accurary: 0.9632
+val loss: 0.0947277325876923,val accuracy: 0.9626
+Time taken: 79.83 seconds
+estimated time to finish: 49 epochs
+Epoch: 3
+learning rate: 0.0025
+Epoch 3: 100%|████████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0584, acc=0.9767]
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.04batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+2,0.08125742962636516,0.9701819985599841,0.07265332375848016,0.9728061321169831
+End of the epoch:
+tr loss: 0.0812574296263652,tr accurary: 0.9702
+val loss: 0.0726533237584802,val accuracy: 0.9728
+Time taken: 77.40 seconds
+estimated time to finish: 48 epochs
+Epoch: 4
+learning rate: 0.005
+Epoch 4: 100%|████████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0536, acc=0.9789]
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 12.00batch/s]
+3,0.07115629233293615,0.9738415917434261,0.07427979936433393,0.9712531732958417
+End of the epoch:
+tr loss: 0.0711562923329361,tr accurary: 0.9738
+val loss: 0.0742797993643339,val accuracy: 0.9713
+Time taken: 76.80 seconds
+estimated time to finish: 47 epochs
+Epoch: 5
+learning rate: 0.00125
+Epoch 5: 100%|████████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0508, acc=0.9803]
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+4,0.06356674415917046,0.9765016695873886,0.05957034663405529,0.977721702220828
+End of the epoch:
+tr loss: 0.0635667441591705,tr accurary: 0.9765
+val loss: 0.0595703466340553,val accuracy: 0.9777
+Time taken: 79.96 seconds
+estimated time to finish: 46 epochs
+Epoch: 6
+learning rate: 0.0025
+Epoch 6: 100%|████████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0489, acc=0.9810]
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+5,0.06030565752821453,0.9777318663516287,0.058430724365766656,0.9780797071235124
+End of the epoch:
+tr loss: 0.0603056575282145,tr accurary: 0.9777
+val loss: 0.0584307243657667,val accuracy: 0.9781
+Time taken: 77.41 seconds
+estimated time to finish: 45 epochs
+Epoch: 7
+learning rate: 0.000625
+Epoch 7: 100%|████████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0481, acc=0.9810]
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.88batch/s]
+6,0.057211052152817535,0.9788589315899348,0.05933466969534408,0.9776064850563226
+End of the epoch:
+tr loss: 0.0572110521528175,tr accurary: 0.9789
+val loss: 0.0593346696953441,val accuracy: 0.9776
+Time taken: 76.74 seconds
+estimated time to finish: 44 epochs
+Epoch: 8
+learning rate: 0.00125
+Epoch 8: 100%|████████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0473, acc=0.9813]
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+7,0.05632828920027294,0.9791805569061451,0.05808892629520838,0.9781474623569223
+End of the epoch:
+tr loss: 0.0563282892002729,tr accurary: 0.9792
+val loss: 0.0580889262952084,val accuracy: 0.9781
+Time taken: 79.90 seconds
+estimated time to finish: 43 epochs
+Epoch: 9
+learning rate: 0.0003125
+Epoch 9: 100%|████████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0444, acc=0.9831]
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+8,0.05522740313436015,0.9795775763732565,0.056685175746679306,0.9786570349404978
+End of the epoch:
+tr loss: 0.0552274031343601,tr accurary: 0.9796
+val loss: 0.0566851757466793,val accuracy: 0.9787
+Time taken: 77.41 seconds
+estimated time to finish: 42 epochs
+Epoch: 10
+learning rate: 0.000625
+Epoch 10: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0448, acc=0.9826]
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+9,0.05416418296300759,0.979991594950358,0.055931062459252605,0.9789958111075467
+End of the epoch:
+tr loss: 0.0541641829630076,tr accurary: 0.9800
+val loss: 0.0559310624592526,val accuracy: 0.9790
+Time taken: 79.87 seconds
+estimated time to finish: 41 epochs
+Epoch: 11
+learning rate: 0.00015625
+Epoch 11: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0432, acc=0.9836]
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+10,0.05331576909175364,0.9803473208583681,0.05518816047629645,0.9793913419856581
+End of the epoch:
+tr loss: 0.0533157690917536,tr accurary: 0.9803
+val loss: 0.0551881604762964,val accuracy: 0.9794
+Time taken: 77.50 seconds
+estimated time to finish: 40 epochs
+Epoch: 12
+learning rate: 0.0003125
+Epoch 12: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0426, acc=0.9839]
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.93batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+11,0.05313599409567098,0.9804276234686038,0.0550675542895184,0.9794558369836142
+End of the epoch:
+tr loss: 0.0531359940956710,tr accurary: 0.9804
+val loss: 0.0550675542895184,val accuracy: 0.9795
+Time taken: 77.27 seconds
+estimated time to finish: 39 epochs
+Epoch: 13
+learning rate: 7.8125e-05
+Epoch 13: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0426, acc=0.9838]
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.04batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+12,0.05281173928225108,0.9805489610143974,0.05490076602544895,0.9795202210892079
+End of the epoch:
+tr loss: 0.0528117392822511,tr accurary: 0.9805
+val loss: 0.0549007660254490,val accuracy: 0.9795
+Time taken: 79.86 seconds
+estimated time to finish: 38 epochs
+Epoch: 14
+learning rate: 0.00015625
+Epoch 14: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0428, acc=0.9836]
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.07batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+13,0.05271107966532815,0.9805885735204665,0.054781702888566396,0.9795723183210506
+End of the epoch:
+tr loss: 0.0527110796653281,tr accurary: 0.9806
+val loss: 0.0547817028885664,val accuracy: 0.9796
+Time taken: 77.33 seconds
+estimated time to finish: 37 epochs
+Epoch: 15
+learning rate: 3.90625e-05
+Epoch 15: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0430, acc=0.9836]
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.02batch/s]
+14,0.05246922561088524,0.9806844312592414,0.054891078624614446,0.9794930968173715
+End of the epoch:
+tr loss: 0.0524692256108852,tr accurary: 0.9807
+val loss: 0.0548910786246144,val accuracy: 0.9795
+Time taken: 79.40 seconds
+estimated time to finish: 36 epochs
+Epoch: 16
+learning rate: 7.8125e-05
+Epoch 16: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.03batch/s]
+15,0.05232365185258079,0.9807501378032447,0.054788083097962445,0.9795508717381677
+End of the epoch:
+tr loss: 0.0523236518525808,tr accurary: 0.9808
+val loss: 0.0547880830979624,val accuracy: 0.9796
+Time taken: 76.79 seconds
+estimated time to finish: 35 epochs
+Epoch: 17
+learning rate: 1.953125e-05
+Epoch 17: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.92batch/s]
+16,0.05225073918700218,0.9807785109611554,0.054816848490127294,0.9795293142629224
+End of the epoch:
+tr loss: 0.0522507391870022,tr accurary: 0.9808
+val loss: 0.0548168484901273,val accuracy: 0.9795
+Time taken: 76.79 seconds
+estimated time to finish: 34 epochs
+Epoch: 18
+learning rate: 3.90625e-05
+Epoch 18: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 18: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.04batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+17,0.05221025559440844,0.9807929831036066,0.05478139195677846,0.9795480994291084
+End of the epoch:
+tr loss: 0.0522102555944084,tr accurary: 0.9808
+val loss: 0.0547813919567785,val accuracy: 0.9795
+Time taken: 79.93 seconds
+estimated time to finish: 33 epochs
+Epoch: 19
+learning rate: 9.765625e-06
+Epoch 19: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0428, acc=0.9836]
+Epoch 19: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+18,0.05216967014564296,0.9808100199295302,0.05478053851876148,0.9795474340749342
+End of the epoch:
+tr loss: 0.0521696701456430,tr accurary: 0.9808
+val loss: 0.0547805385187615,val accuracy: 0.9795
+Time taken: 77.30 seconds
+estimated time to finish: 32 epochs
+Epoch: 20
+learning rate: 1.953125e-05
+Epoch 20: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 20: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+19,0.052154055622927215,0.9808143195459398,0.054775476542323134,0.9795479441798011
+End of the epoch:
+tr loss: 0.0521540556229272,tr accurary: 0.9808
+val loss: 0.0547754765423231,val accuracy: 0.9795
+Time taken: 79.99 seconds
+estimated time to finish: 31 epochs
+Epoch: 21
+learning rate: 4.8828125e-06
+Epoch 21: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0428, acc=0.9836]
+Epoch 21: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+20,0.052132948570079725,0.9808223961436816,0.05477286433411199,0.9795480107152185
+End of the epoch:
+tr loss: 0.0521329485700797,tr accurary: 0.9808
+val loss: 0.0547728643341120,val accuracy: 0.9795
+Time taken: 77.43 seconds
+estimated time to finish: 30 epochs
+Epoch: 22
+learning rate: 9.765625e-06
+Epoch 22: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 22: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.94batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+21,0.05212536830939142,0.9808259899333373,0.05476823180567387,0.9795500733131586
+End of the epoch:
+tr loss: 0.0521253683093914,tr accurary: 0.9808
+val loss: 0.0547682318056739,val accuracy: 0.9796
+Time taken: 77.49 seconds
+estimated time to finish: 29 epochs
+Epoch: 23
+learning rate: 2.44140625e-06
+Epoch 23: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 23: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+22,0.052115086108277746,0.9808298692864886,0.054766759709563365,0.9795499845992687
+End of the epoch:
+tr loss: 0.0521150861082777,tr accurary: 0.9808
+val loss: 0.0547667597095634,val accuracy: 0.9795
+Time taken: 80.06 seconds
+estimated time to finish: 28 epochs
+Epoch: 24
+learning rate: 4.8828125e-06
+Epoch 24: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 24: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.96batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+23,0.05211131951356002,0.9808312863279871,0.054763051919465844,0.979552335517351
+End of the epoch:
+tr loss: 0.0521113195135600,tr accurary: 0.9808
+val loss: 0.0547630519194658,val accuracy: 0.9796
+Time taken: 77.60 seconds
+estimated time to finish: 27 epochs
+Epoch: 25
+learning rate: 1.220703125e-06
+Epoch 25: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 25: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.79batch/s]
+24,0.05210642144083977,0.980833371480306,0.05476330679862998,0.9795521137326263
+End of the epoch:
+tr loss: 0.0521064214408398,tr accurary: 0.9808
+val loss: 0.0547633067986300,val accuracy: 0.9796
+Time taken: 76.84 seconds
+estimated time to finish: 26 epochs
+Epoch: 26
+learning rate: 2.44140625e-06
+Epoch 26: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 26: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.96batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+25,0.0521047673277599,0.9808341365749553,0.05476267826418544,0.9795527790868005
+End of the epoch:
+tr loss: 0.0521047673277599,tr accurary: 0.9808
+val loss: 0.0547626782641854,val accuracy: 0.9796
+Time taken: 80.10 seconds
+estimated time to finish: 25 epochs
+Epoch: 27
+learning rate: 6.103515625e-07
+Epoch 27: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 27: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.02batch/s]
+26,0.052102531069668674,0.9808351118012336,0.054762709192758385,0.9795525129451308
+End of the epoch:
+tr loss: 0.0521025310696687,tr accurary: 0.9808
+val loss: 0.0547627091927584,val accuracy: 0.9796
+Time taken: 76.83 seconds
+estimated time to finish: 24 epochs
+Epoch: 28
+learning rate: 1.220703125e-06
+Epoch 28: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 28: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+27,0.0521019395167208,0.9808351602931481,0.05476227497985197,0.9795529565145803
+End of the epoch:
+tr loss: 0.0521019395167208,tr accurary: 0.9808
+val loss: 0.0547622749798520,val accuracy: 0.9796
+Time taken: 80.02 seconds
+estimated time to finish: 23 epochs
+Epoch: 29
+learning rate: 3.0517578125e-07
+Epoch 29: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 29: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.98batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+28,0.05210086635950595,0.9808358122399972,0.054761990125096124,0.9795526238374932
+End of the epoch:
+tr loss: 0.0521008663595059,tr accurary: 0.9808
+val loss: 0.0547619901250961,val accuracy: 0.9796
+Time taken: 77.55 seconds
+estimated time to finish: 22 epochs
+Epoch: 30
+learning rate: 6.103515625e-07
+Epoch 30: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 30: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.82batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold1/best_model.pth
+29,0.05210067622237286,0.9808360115956452,0.054761811397796456,0.9795525794805482
+End of the epoch:
+tr loss: 0.0521006762223729,tr accurary: 0.9808
+val loss: 0.0547618113977965,val accuracy: 0.9796
+Time taken: 77.49 seconds
+estimated time to finish: 21 epochs
+Epoch: 31
+learning rate: 1.52587890625e-07
+Epoch 31: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 31: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.99batch/s]
+30,0.05210023937420656,0.9808361031914835,0.05476186129935952,0.9795532448347225
+End of the epoch:
+tr loss: 0.0521002393742066,tr accurary: 0.9808
+val loss: 0.0547618612993595,val accuracy: 0.9796
+Time taken: 79.45 seconds
+estimated time to finish: 20 epochs
+Epoch: 32
+learning rate: 3.0517578125e-07
+Epoch 32: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 32: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.00batch/s]
+31,0.052100223378609804,0.9808358822838735,0.054761897685915925,0.979552756908328
+End of the epoch:
+tr loss: 0.0521002233786098,tr accurary: 0.9808
+val loss: 0.0547618976859159,val accuracy: 0.9796
+Time taken: 76.92 seconds
+estimated time to finish: 19 epochs
+Epoch: 33
+learning rate: 7.62939453125e-08
+Epoch 33: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 33: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+32,0.0521000634857827,0.9808362809951696,0.05476200987779817,0.9795525573020758
+End of the epoch:
+tr loss: 0.0521000634857827,tr accurary: 0.9808
+val loss: 0.0547620098777982,val accuracy: 0.9796
+Time taken: 79.38 seconds
+estimated time to finish: 18 epochs
+Epoch: 34
+learning rate: 1.52587890625e-07
+Epoch 34: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 34: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.98batch/s]
+33,0.052100063222697224,0.9808359900436833,0.054762031623097354,0.9795524020527684
+End of the epoch:
+tr loss: 0.0521000632226972,tr accurary: 0.9808
+val loss: 0.0547620316230974,val accuracy: 0.9796
+Time taken: 76.92 seconds
+estimated time to finish: 17 epochs
+Epoch: 35
+learning rate: 3.814697265625e-08
+Epoch 35: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 35: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.85batch/s]
+34,0.052100043112443664,0.9808360115956452,0.054762055360993676,0.9795530452284702
+End of the epoch:
+tr loss: 0.0521000431124437,tr accurary: 0.9808
+val loss: 0.0547620553609937,val accuracy: 0.9796
+Time taken: 76.87 seconds
+estimated time to finish: 16 epochs
+Epoch: 36
+learning rate: 7.62939453125e-08
+Epoch 36: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 36: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.99batch/s]
+35,0.05210005199420924,0.9808359684917213,0.05476206402445948,0.97955322265625
+End of the epoch:
+tr loss: 0.0521000519942092,tr accurary: 0.9808
+val loss: 0.0547620640244595,val accuracy: 0.9796
+Time taken: 79.31 seconds
+estimated time to finish: 15 epochs
+Epoch: 37
+learning rate: 1.9073486328125e-08
+Epoch 37: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 37: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.00batch/s]
+36,0.05210003374660083,0.9808360008196643,0.0547620240858821,0.9795522689819336
+End of the epoch:
+tr loss: 0.0521000337466008,tr accurary: 0.9808
+val loss: 0.0547620240858821,val accuracy: 0.9796
+Time taken: 76.83 seconds
+estimated time to finish: 14 epochs
+Epoch: 38
+learning rate: 3.814697265625e-08
+Epoch 38: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 38: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+37,0.052100033525609026,0.9808360546995691,0.054762056573878885,0.9795527347298556
+End of the epoch:
+tr loss: 0.0521000335256090,tr accurary: 0.9808
+val loss: 0.0547620565738789,val accuracy: 0.9796
+Time taken: 79.42 seconds
+estimated time to finish: 13 epochs
+Epoch: 39
+learning rate: 9.5367431640625e-09
+Epoch 39: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 39: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+38,0.05210000892185559,0.9808360331476071,0.05476203578156094,0.9795528678006904
+End of the epoch:
+tr loss: 0.0521000089218556,tr accurary: 0.9808
+val loss: 0.0547620357815609,val accuracy: 0.9796
+Time taken: 76.84 seconds
+estimated time to finish: 12 epochs
+Epoch: 40
+learning rate: 1.9073486328125e-08
+Epoch 40: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 40: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.81batch/s]
+39,0.05210003467266169,0.9808362432792361,0.0547620706086935,0.9795530674069427
+End of the epoch:
+tr loss: 0.0521000346726617,tr accurary: 0.9808
+val loss: 0.0547620706086935,val accuracy: 0.9796
+Time taken: 76.92 seconds
+estimated time to finish: 11 epochs
+Epoch: 41
+learning rate: 4.76837158203125e-09
+Epoch 41: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 41: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.02batch/s]
+40,0.05210000939540944,0.9808361139674645,0.05476200987779817,0.9795522911604061
+End of the epoch:
+tr loss: 0.0521000093954094,tr accurary: 0.9808
+val loss: 0.0547620098777982,val accuracy: 0.9796
+Time taken: 79.36 seconds
+estimated time to finish: 10 epochs
+Epoch: 42
+learning rate: 9.5367431640625e-09
+Epoch 42: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.51batch/s, loss=0.0428, acc=0.9836]
+Epoch 42: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.99batch/s]
+41,0.052099997809125206,0.9808362163392838,0.05476201975414919,0.9795523576958235
+End of the epoch:
+tr loss: 0.0520999978091252,tr accurary: 0.9808
+val loss: 0.0547620197541492,val accuracy: 0.9796
+Time taken: 76.81 seconds
+estimated time to finish: 9 epochs
+Epoch: 43
+learning rate: 2.384185791015625e-09
+Epoch 43: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 43: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.00batch/s]
+42,0.05210000159755602,0.9808359738797118,0.05476202763790308,0.9795526460159657
+End of the epoch:
+tr loss: 0.0521000015975560,tr accurary: 0.9808
+val loss: 0.0547620276379031,val accuracy: 0.9796
+Time taken: 79.41 seconds
+estimated time to finish: 8 epochs
+Epoch: 44
+learning rate: 4.76837158203125e-09
+Epoch 44: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 44: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.02batch/s]
+43,0.052099994788903974,0.980836097803493,0.05476200528616129,0.9795525573020758
+End of the epoch:
+tr loss: 0.0520999947889040,tr accurary: 0.9808
+val loss: 0.0547620052861613,val accuracy: 0.9796
+Time taken: 76.89 seconds
+estimated time to finish: 7 epochs
+Epoch: 45
+learning rate: 1.1920928955078125e-09
+Epoch 45: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 45: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.84batch/s]
+44,0.05210000573325965,0.9808359900436833,0.05476204427175744,0.9795528899791629
+End of the epoch:
+tr loss: 0.0521000057332597,tr accurary: 0.9808
+val loss: 0.0547620442717574,val accuracy: 0.9796
+Time taken: 76.87 seconds
+estimated time to finish: 6 epochs
+Epoch: 46
+learning rate: 2.384185791015625e-09
+Epoch 46: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 46: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.01batch/s]
+45,0.05210000862719986,0.9808362432792361,0.05476203500184902,0.9795526903729106
+End of the epoch:
+tr loss: 0.0521000086271999,tr accurary: 0.9808
+val loss: 0.0547620350018490,val accuracy: 0.9796
+Time taken: 79.39 seconds
+estimated time to finish: 5 epochs
+Epoch: 47
+learning rate: 5.960464477539063e-10
+Epoch 47: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 47: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.97batch/s]
+46,0.05209999312620379,0.9808362432792361,0.05476201750164808,0.9795526681944381
+End of the epoch:
+tr loss: 0.0520999931262038,tr accurary: 0.9808
+val loss: 0.0547620175016481,val accuracy: 0.9796
+Time taken: 77.11 seconds
+estimated time to finish: 4 epochs
+Epoch: 48
+learning rate: 1.1920928955078125e-09
+Epoch 48: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.41batch/s, loss=0.0428, acc=0.9836]
+Epoch 48: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  7.02batch/s]
+47,0.052099999829621636,0.980836351039046,0.05476203881377398,0.9795525573020758
+End of the epoch:
+tr loss: 0.0520999998296216,tr accurary: 0.9808
+val loss: 0.0547620388137740,val accuracy: 0.9796
+Time taken: 79.45 seconds
+estimated time to finish: 3 epochs
+Epoch: 49
+learning rate: 2.9802322387695313e-10
+Epoch 49: 100%|███████████████████████████████████████████| 177/177 [01:10<00:00,  2.50batch/s, loss=0.0428, acc=0.9836]
+Epoch 49: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:06<00:00,  6.97batch/s]
+48,0.052099995220364154,0.9808361624593789,0.05476201628876287,0.9795524907666583
+End of the epoch:
+tr loss: 0.0520999952203642,tr accurary: 0.9808
+val loss: 0.0547620162887629,val accuracy: 0.9796
+Time taken: 76.94 seconds
+estimated time to finish: 2 epochs
+Epoch: 50
+learning rate: 5.960464477539063e-10
+Epoch 50: 100%|███████████████████████████████████████████| 177/177 [01:13<00:00,  2.42batch/s, loss=0.0428, acc=0.9836]
+Epoch 50: 100%|██████████████████████████████████████████████████████████████████████| 43/43 [00:03<00:00, 11.82batch/s]
+49,0.05209999185287009,0.9808361139674645,0.054762017328378765,0.9795525351236033
+End of the epoch:
+tr loss: 0.0520999918528701,tr accurary: 0.9808
+val loss: 0.0547620173283788,val accuracy: 0.9796
+Time taken: 76.83 seconds
+estimated time to finish: 1 epochs
+2025-07-10 03:15:47 INFO     discord.client logging in using static token
+2025-07-10 03:15:48 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: a5863c02199cce9651f85813e0d64f4f).
+Processing fold2
+Epoch: 1
+learning rate: 0.01
+Epoch 1: 100%|████████████████████████████████████████████| 174/174 [01:19<00:00,  2.20batch/s, loss=0.1031, acc=0.9589]
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.11batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+0,0.2042141374662218,0.9334524358040318,0.14050260110426757,0.9500462160272113
+End of the epoch:
+tr loss: 0.2042141374662218,tr accurary: 0.9335
+val loss: 0.1405026011042676,val accuracy: 0.9500
+Time taken: 86.20 seconds
+estimated time to finish: 50 epochs
+Epoch: 2
+learning rate: 0.01
+Epoch 2: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0962, acc=0.9600]
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.89batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+1,0.10422329628244258,0.962337345486072,0.1118729993448419,0.9551242893025026
+End of the epoch:
+tr loss: 0.1042232962824426,tr accurary: 0.9623
+val loss: 0.1118729993448419,val accuracy: 0.9551
+Time taken: 76.07 seconds
+estimated time to finish: 49 epochs
+Epoch: 3
+learning rate: 0.0025
+Epoch 3: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0611, acc=0.9754]
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+2,0.08466943855845618,0.9692555463279702,0.10408965919145756,0.9585834869557182
+End of the epoch:
+tr loss: 0.0846694385584562,tr accurary: 0.9693
+val loss: 0.1040896591914576,val accuracy: 0.9586
+Time taken: 78.55 seconds
+estimated time to finish: 48 epochs
+Epoch: 4
+learning rate: 0.005
+Epoch 4: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0554, acc=0.9780]
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.91batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+3,0.07549909786764071,0.9723851811301811,0.0776744994234904,0.970306374932413
+End of the epoch:
+tr loss: 0.0754990978676407,tr accurary: 0.9724
+val loss: 0.0776744994234904,val accuracy: 0.9703
+Time taken: 76.00 seconds
+estimated time to finish: 47 epochs
+Epoch: 5
+learning rate: 0.00125
+Epoch 5: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0553, acc=0.9781]
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.16batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+4,0.06744542666402262,0.9748423463673,0.060901696609575194,0.976995220292086
+End of the epoch:
+tr loss: 0.0674454266640226,tr accurary: 0.9748
+val loss: 0.0609016966095752,val accuracy: 0.9770
+Time taken: 78.62 seconds
+estimated time to finish: 46 epochs
+Epoch: 6
+learning rate: 0.0025
+Epoch 6: 100%|████████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0513, acc=0.9797]
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.11batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+5,0.0627236786252827,0.9766732196642961,0.060723794445311285,0.9768538609736384
+End of the epoch:
+tr loss: 0.0627236786252827,tr accurary: 0.9767
+val loss: 0.0607237944453113,val accuracy: 0.9769
+Time taken: 76.10 seconds
+estimated time to finish: 45 epochs
+Epoch: 7
+learning rate: 0.000625
+Epoch 7: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0500, acc=0.9798]
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+6,0.05936256390311876,0.9779729650755781,0.05854667828413053,0.9777363276077529
+End of the epoch:
+tr loss: 0.0593625639031188,tr accurary: 0.9780
+val loss: 0.0585466782841305,val accuracy: 0.9777
+Time taken: 78.60 seconds
+estimated time to finish: 44 epochs
+Epoch: 8
+learning rate: 0.00125
+Epoch 8: 100%|████████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0476, acc=0.9807]
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.17batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+7,0.05740678350116403,0.9787169849494692,0.05632961330945883,0.978670044807391
+End of the epoch:
+tr loss: 0.0574067835011640,tr accurary: 0.9787
+val loss: 0.0563296133094588,val accuracy: 0.9787
+Time taken: 76.05 seconds
+estimated time to finish: 43 epochs
+Epoch: 9
+learning rate: 0.0003125
+Epoch 9: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0467, acc=0.9815]
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.82batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+8,0.05509278747207493,0.9795547782172387,0.055455871831394186,0.9791532613463321
+End of the epoch:
+tr loss: 0.0550927874720749,tr accurary: 0.9796
+val loss: 0.0554558718313942,val accuracy: 0.9792
+Time taken: 76.07 seconds
+estimated time to finish: 42 epochs
+Epoch: 10
+learning rate: 0.000625
+Epoch 10: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0454, acc=0.9820]
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+9,0.05416578730777636,0.9799246224615004,0.054609056583232125,0.9795284810039283
+End of the epoch:
+tr loss: 0.0541657873077764,tr accurary: 0.9799
+val loss: 0.0546090565832321,val accuracy: 0.9795
+Time taken: 78.60 seconds
+estimated time to finish: 41 epochs
+Epoch: 11
+learning rate: 0.00015625
+Epoch 11: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0451, acc=0.9823]
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+10,0.05324764724724231,0.9802626134339258,0.05434081699215086,0.9796467366191627
+End of the epoch:
+tr loss: 0.0532476472472423,tr accurary: 0.9803
+val loss: 0.0543408169921509,val accuracy: 0.9796
+Time taken: 76.14 seconds
+estimated time to finish: 40 epochs
+Epoch: 12
+learning rate: 0.0003125
+Epoch 12: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0448, acc=0.9824]
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+11,0.052989329466386896,0.9803516596813366,0.05428963196648043,0.9796749265853968
+End of the epoch:
+tr loss: 0.0529893294663869,tr accurary: 0.9804
+val loss: 0.0542896319664804,val accuracy: 0.9797
+Time taken: 78.74 seconds
+estimated time to finish: 39 epochs
+Epoch: 13
+learning rate: 7.8125e-05
+Epoch 13: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0462, acc=0.9817]
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.11batch/s]
+12,0.05264014517754231,0.9805032691625766,0.054422532413470545,0.9794814115190237
+End of the epoch:
+tr loss: 0.0526401451775423,tr accurary: 0.9805
+val loss: 0.0544225324134705,val accuracy: 0.9795
+Time taken: 75.44 seconds
+estimated time to finish: 38 epochs
+Epoch: 14
+learning rate: 0.00015625
+Epoch 14: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0457, acc=0.9819]
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+13,0.05237989044971013,0.9806187159733402,0.05424235028735662,0.9795801410567289
+End of the epoch:
+tr loss: 0.0523798904497101,tr accurary: 0.9806
+val loss: 0.0542423502873566,val accuracy: 0.9796
+Time taken: 78.60 seconds
+estimated time to finish: 37 epochs
+Epoch: 15
+learning rate: 3.90625e-05
+Epoch 15: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0449, acc=0.9822]
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+14,0.052136344604344464,0.9807104775816288,0.05393316965066107,0.9797427937135859
+End of the epoch:
+tr loss: 0.0521363446043445,tr accurary: 0.9807
+val loss: 0.0539331696506611,val accuracy: 0.9797
+Time taken: 76.14 seconds
+estimated time to finish: 36 epochs
+Epoch: 16
+learning rate: 7.8125e-05
+Epoch 16: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0451, acc=0.9821]
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.83batch/s]
+15,0.05205515850474924,0.9807447109167445,0.05397063872571719,0.979716306352346
+End of the epoch:
+tr loss: 0.0520551585047492,tr accurary: 0.9807
+val loss: 0.0539706387257172,val accuracy: 0.9797
+Time taken: 75.43 seconds
+estimated time to finish: 35 epochs
+Epoch: 17
+learning rate: 1.953125e-05
+Epoch 17: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0448, acc=0.9822]
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+16,0.051962179241846894,0.9807780537893861,0.05387614425376984,0.9797635482529462
+End of the epoch:
+tr loss: 0.0519621792418469,tr accurary: 0.9808
+val loss: 0.0538761442537698,val accuracy: 0.9798
+Time taken: 78.61 seconds
+estimated time to finish: 34 epochs
+Epoch: 18
+learning rate: 3.90625e-05
+Epoch 18: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0448, acc=0.9822]
+Epoch 18: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+17,0.05192741869763613,0.9807938787366883,0.053864656573971784,0.9797690224512822
+End of the epoch:
+tr loss: 0.0519274186976361,tr accurary: 0.9808
+val loss: 0.0538646565739718,val accuracy: 0.9798
+Time taken: 76.27 seconds
+estimated time to finish: 33 epochs
+Epoch: 19
+learning rate: 9.765625e-06
+Epoch 19: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0448, acc=0.9822]
+Epoch 19: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+18,0.05188173771720455,0.9808100554716347,0.05384589900067971,0.9797761561506886
+End of the epoch:
+tr loss: 0.0518817377172045,tr accurary: 0.9808
+val loss: 0.0538458990006797,val accuracy: 0.9798
+Time taken: 78.65 seconds
+estimated time to finish: 32 epochs
+Epoch: 20
+learning rate: 1.953125e-05
+Epoch 20: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0447, acc=0.9823]
+Epoch 20: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+19,0.05186403997951007,0.9808181410907668,0.05382837245693314,0.9797839364089534
+End of the epoch:
+tr loss: 0.0518640399795101,tr accurary: 0.9808
+val loss: 0.0538283724569331,val accuracy: 0.9798
+Time taken: 76.07 seconds
+estimated time to finish: 31 epochs
+Epoch: 21
+learning rate: 4.8828125e-06
+Epoch 21: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0447, acc=0.9823]
+Epoch 21: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.10batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+20,0.05184221325673013,0.9808255176379289,0.053820041992233295,0.97978732006698
+End of the epoch:
+tr loss: 0.0518422132567301,tr accurary: 0.9808
+val loss: 0.0538200419922333,val accuracy: 0.9798
+Time taken: 78.55 seconds
+estimated time to finish: 30 epochs
+Epoch: 22
+learning rate: 9.765625e-06
+Epoch 22: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0447, acc=0.9823]
+Epoch 22: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+21,0.051833351145388416,0.980829739089658,0.05381264013506598,0.9797911132122837
+End of the epoch:
+tr loss: 0.0518333511453884,tr accurary: 0.9808
+val loss: 0.0538126401350660,val accuracy: 0.9798
+Time taken: 76.12 seconds
+estimated time to finish: 29 epochs
+Epoch: 23
+learning rate: 2.44140625e-06
+Epoch 23: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0447, acc=0.9823]
+Epoch 23: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.78batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+22,0.0518226415047728,0.9808333119329183,0.05380907608459225,0.9797925787456965
+End of the epoch:
+tr loss: 0.0518226415047728,tr accurary: 0.9808
+val loss: 0.0538090760845922,val accuracy: 0.9798
+Time taken: 76.13 seconds
+estimated time to finish: 28 epochs
+Epoch: 24
+learning rate: 4.8828125e-06
+Epoch 24: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0447, acc=0.9823]
+Epoch 24: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+23,0.05181813669479546,0.9808351643147317,0.05380558113088715,0.9797936563437941
+End of the epoch:
+tr loss: 0.0518181366947955,tr accurary: 0.9808
+val loss: 0.0538055811308872,val accuracy: 0.9798
+Time taken: 78.65 seconds
+estimated time to finish: 27 epochs
+Epoch: 25
+learning rate: 1.220703125e-06
+Epoch 25: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0447, acc=0.9823]
+Epoch 25: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+24,0.051813047980454885,0.9808366099420817,0.05380394259246729,0.9797938934153756
+End of the epoch:
+tr loss: 0.0518130479804549,tr accurary: 0.9808
+val loss: 0.0538039425924673,val accuracy: 0.9798
+Time taken: 76.21 seconds
+estimated time to finish: 26 epochs
+Epoch: 26
+learning rate: 2.44140625e-06
+Epoch 26: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0447, acc=0.9823]
+Epoch 26: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.16batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+25,0.05181097564547824,0.980837577358103,0.05380237342442496,0.979795078773283
+End of the epoch:
+tr loss: 0.0518109756454782,tr accurary: 0.9808
+val loss: 0.0538023734244250,val accuracy: 0.9798
+Time taken: 78.57 seconds
+estimated time to finish: 25 epochs
+Epoch: 27
+learning rate: 6.103515625e-07
+Epoch 27: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0447, acc=0.9823]
+Epoch 27: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+26,0.051808623258851105,0.9808383743769841,0.0538017294332806,0.9797946692860059
+End of the epoch:
+tr loss: 0.0518086232588511,tr accurary: 0.9808
+val loss: 0.0538017294332806,val accuracy: 0.9798
+Time taken: 76.28 seconds
+estimated time to finish: 24 epochs
+Epoch: 28
+learning rate: 1.220703125e-06
+Epoch 28: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0447, acc=0.9823]
+Epoch 28: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.11batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+27,0.05180781308872899,0.9808386711978088,0.05380130590776266,0.979795078773283
+End of the epoch:
+tr loss: 0.0518078130887290,tr accurary: 0.9808
+val loss: 0.0538013059077627,val accuracy: 0.9798
+Time taken: 76.10 seconds
+estimated time to finish: 23 epochs
+Epoch: 29
+learning rate: 3.0517578125e-07
+Epoch 29: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 29: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.16batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+28,0.05180679087765966,0.9808391109323639,0.05380055661928856,0.9797954020527123
+End of the epoch:
+tr loss: 0.0518067908776597,tr accurary: 0.9808
+val loss: 0.0538005566192886,val accuracy: 0.9798
+Time taken: 78.55 seconds
+estimated time to finish: 22 epochs
+Epoch: 30
+learning rate: 6.103515625e-07
+Epoch 30: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 30: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.81batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+29,0.05180651809408273,0.9808391823892291,0.05380046954852039,0.9797952727409406
+End of the epoch:
+tr loss: 0.0518065180940827,tr accurary: 0.9808
+val loss: 0.0538004695485204,val accuracy: 0.9798
+Time taken: 76.15 seconds
+estimated time to finish: 21 epochs
+Epoch: 31
+learning rate: 1.52587890625e-07
+Epoch 31: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 31: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+30,0.05180615254326238,0.9808391329190916,0.05380046843303799,0.9797952942929026
+End of the epoch:
+tr loss: 0.0518061525432624,tr accurary: 0.9808
+val loss: 0.0538004684330380,val accuracy: 0.9798
+Time taken: 78.62 seconds
+estimated time to finish: 20 epochs
+Epoch: 32
+learning rate: 3.0517578125e-07
+Epoch 32: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 32: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+31,0.05180606525122947,0.9808392648394582,0.05380033592214692,0.979795983955685
+End of the epoch:
+tr loss: 0.0518060652512295,tr accurary: 0.9808
+val loss: 0.0538003359221469,val accuracy: 0.9798
+Time taken: 76.04 seconds
+estimated time to finish: 19 epochs
+Epoch: 33
+learning rate: 7.62939453125e-08
+Epoch 33: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 33: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.14batch/s]
+32,0.05180593453326211,0.9808393307996415,0.053800362125460036,0.9797954236046743
+End of the epoch:
+tr loss: 0.0518059345332621,tr accurary: 0.9808
+val loss: 0.0538003621254600,val accuracy: 0.9798
+Time taken: 77.95 seconds
+estimated time to finish: 18 epochs
+Epoch: 34
+learning rate: 1.52587890625e-07
+Epoch 34: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 34: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.16batch/s]
+33,0.05180591531634674,0.9808389955020432,0.05380039003356702,0.9797955744684079
+End of the epoch:
+tr loss: 0.0518059153163467,tr accurary: 0.9808
+val loss: 0.0538003900335670,val accuracy: 0.9798
+Time taken: 75.41 seconds
+estimated time to finish: 17 epochs
+Epoch: 35
+learning rate: 3.814697265625e-08
+Epoch 35: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 35: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold2/best_model.pth
+34,0.05180587633499494,0.9808394792100538,0.05379972817365732,0.9797956391242938
+End of the epoch:
+tr loss: 0.0518058763349949,tr accurary: 0.9808
+val loss: 0.0537997281736573,val accuracy: 0.9798
+Time taken: 78.63 seconds
+estimated time to finish: 16 epochs
+Epoch: 36
+learning rate: 7.62939453125e-08
+Epoch 36: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 36: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+35,0.05180585945846368,0.9808392043759568,0.053799747410467114,0.9797956822282177
+End of the epoch:
+tr loss: 0.0518058594584637,tr accurary: 0.9808
+val loss: 0.0537997474104671,val accuracy: 0.9798
+Time taken: 75.49 seconds
+estimated time to finish: 15 epochs
+Epoch: 37
+learning rate: 1.9073486328125e-08
+Epoch 37: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 37: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.79batch/s]
+36,0.051805858009143245,0.9808394187465524,0.05379974305377168,0.9797956391242938
+End of the epoch:
+tr loss: 0.0518058580091432,tr accurary: 0.9808
+val loss: 0.0537997430537717,val accuracy: 0.9798
+Time taken: 75.56 seconds
+estimated time to finish: 14 epochs
+Epoch: 38
+learning rate: 3.814697265625e-08
+Epoch 38: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0446, acc=0.9823]
+Epoch 38: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.09batch/s]
+37,0.05180586126206244,0.9808395066934635,0.0537997695938342,0.9797953589487884
+End of the epoch:
+tr loss: 0.0518058612620624,tr accurary: 0.9808
+val loss: 0.0537997695938342,val accuracy: 0.9798
+Time taken: 78.15 seconds
+estimated time to finish: 13 epochs
+Epoch: 39
+learning rate: 9.5367431640625e-09
+Epoch 39: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 39: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+38,0.051805855239330866,0.9808393527863692,0.05379975206181828,0.9797954236046743
+End of the epoch:
+tr loss: 0.0518058552393309,tr accurary: 0.9808
+val loss: 0.0537997520618183,val accuracy: 0.9798
+Time taken: 75.44 seconds
+estimated time to finish: 12 epochs
+Epoch: 40
+learning rate: 1.9073486328125e-08
+Epoch 40: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 40: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.15batch/s]
+39,0.05180585895388545,0.9808393472896872,0.05379976208011309,0.9797962425792285
+End of the epoch:
+tr loss: 0.0518058589538855,tr accurary: 0.9808
+val loss: 0.0537997620801131,val accuracy: 0.9798
+Time taken: 77.92 seconds
+estimated time to finish: 11 epochs
+Epoch: 41
+learning rate: 4.76837158203125e-09
+Epoch 41: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 41: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.13batch/s]
+40,0.05180584700504366,0.9808391274224098,0.05379975553454652,0.9797957899880274
+End of the epoch:
+tr loss: 0.0518058470050437,tr accurary: 0.9808
+val loss: 0.0537997555345465,val accuracy: 0.9798
+Time taken: 75.50 seconds
+estimated time to finish: 10 epochs
+Epoch: 42
+learning rate: 9.5367431640625e-09
+Epoch 42: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 42: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.11batch/s]
+41,0.05180583851309949,0.9808393802697789,0.0537997417278209,0.9797954667085982
+End of the epoch:
+tr loss: 0.0518058385130995,tr accurary: 0.9808
+val loss: 0.0537997417278209,val accuracy: 0.9798
+Time taken: 77.93 seconds
+estimated time to finish: 9 epochs
+Epoch: 43
+learning rate: 2.384185791015625e-09
+Epoch 43: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 43: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.16batch/s]
+42,0.05180585779442911,0.9808393362963234,0.0537997378341559,0.9797957037801797
+End of the epoch:
+tr loss: 0.0518058577944291,tr accurary: 0.9808
+val loss: 0.0537997378341559,val accuracy: 0.9798
+Time taken: 75.43 seconds
+estimated time to finish: 8 epochs
+Epoch: 44
+learning rate: 4.76837158203125e-09
+Epoch 44: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 44: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+43,0.051805851943468845,0.9808392428527304,0.05379973882335728,0.9797956175723318
+End of the epoch:
+tr loss: 0.0518058519434688,tr accurary: 0.9808
+val loss: 0.0537997388233573,val accuracy: 0.9798
+Time taken: 77.97 seconds
+estimated time to finish: 7 epochs
+Epoch: 45
+learning rate: 1.1920928955078125e-09
+Epoch 45: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 45: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.15batch/s]
+44,0.051805858642549954,0.9808391878859111,0.05379974724209241,0.9797960917154948
+End of the epoch:
+tr loss: 0.0518058586425500,tr accurary: 0.9808
+val loss: 0.0537997472420924,val accuracy: 0.9798
+Time taken: 75.44 seconds
+estimated time to finish: 6 epochs
+Epoch: 46
+learning rate: 2.384185791015625e-09
+Epoch 46: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 46: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:03<00:00, 11.70batch/s]
+45,0.05180585431606007,0.9808393527863692,0.05379972817365732,0.9797957253321415
+End of the epoch:
+tr loss: 0.0518058543160601,tr accurary: 0.9808
+val loss: 0.0537997281736573,val accuracy: 0.9798
+Time taken: 75.49 seconds
+estimated time to finish: 5 epochs
+Epoch: 47
+learning rate: 5.960464477539063e-10
+Epoch 47: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 47: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.10batch/s]
+46,0.051805850032513014,0.9808394902034177,0.05379973520330117,0.9797958330919514
+End of the epoch:
+tr loss: 0.0518058500325130,tr accurary: 0.9808
+val loss: 0.0537997352033012,val accuracy: 0.9798
+Time taken: 77.99 seconds
+estimated time to finish: 4 epochs
+Epoch: 48
+learning rate: 1.1920928955078125e-09
+Epoch 48: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 48: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.11batch/s]
+47,0.05180585534668793,0.980839462720008,0.05379974644231258,0.9797958761958753
+End of the epoch:
+tr loss: 0.0518058553466879,tr accurary: 0.9808
+val loss: 0.0537997464423126,val accuracy: 0.9798
+Time taken: 75.49 seconds
+estimated time to finish: 3 epochs
+Epoch: 49
+learning rate: 2.9802322387695313e-10
+Epoch 49: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0446, acc=0.9823]
+Epoch 49: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+48,0.05180585322101797,0.9808391823892291,0.05379974431658195,0.9797956606762558
+End of the epoch:
+tr loss: 0.0518058532210180,tr accurary: 0.9808
+val loss: 0.0537997443165820,val accuracy: 0.9798
+Time taken: 77.96 seconds
+estimated time to finish: 2 epochs
+Epoch: 50
+learning rate: 5.960464477539063e-10
+Epoch 50: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0446, acc=0.9823]
+Epoch 50: 100%|██████████████████████████████████████████████████████████████████████| 45/45 [00:06<00:00,  7.12batch/s]
+49,0.051805856742329834,0.9808390944423181,0.053799742569694414,0.9797959408517611
+End of the epoch:
+tr loss: 0.0518058567423298,tr accurary: 0.9808
+val loss: 0.0537997425696944,val accuracy: 0.9798
+Time taken: 75.50 seconds
+estimated time to finish: 1 epochs
+2025-07-10 04:20:19 INFO     discord.client logging in using static token
+2025-07-10 04:20:20 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: 1d81c6a114bc765659f909b17302e80b).
+Processing fold3
+Epoch: 1
+learning rate: 0.01
+Epoch 1: 100%|████████████████████████████████████████████| 176/176 [01:19<00:00,  2.23batch/s, loss=0.0930, acc=0.9622]
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.97batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+0,0.21167870066773023,0.9303477473673909,0.149053110430638,0.9448241052173433
+End of the epoch:
+tr loss: 0.2116787006677302,tr accurary: 0.9303
+val loss: 0.1490531104306380,val accuracy: 0.9448
+Time taken: 85.76 seconds
+estimated time to finish: 50 epochs
+Epoch: 2
+learning rate: 0.01
+Epoch 2: 100%|████████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0800, acc=0.9675]
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+1,0.10475909858729462,0.961892072212339,0.13700117578818685,0.9469288190205892
+End of the epoch:
+tr loss: 0.1047590985872946,tr accurary: 0.9619
+val loss: 0.1370011757881869,val accuracy: 0.9469
+Time taken: 79.04 seconds
+estimated time to finish: 49 epochs
+Epoch: 3
+learning rate: 0.0025
+Epoch 3: 100%|████████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0806, acc=0.9666]
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.98batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+2,0.08494001794898731,0.9690106891191295,0.1027708337420509,0.9606841632298061
+End of the epoch:
+tr loss: 0.0849400179489873,tr accurary: 0.9690
+val loss: 0.1027708337420509,val accuracy: 0.9607
+Time taken: 76.58 seconds
+estimated time to finish: 48 epochs
+Epoch: 4
+learning rate: 0.005
+Epoch 4: 100%|████████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0739, acc=0.9692]
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+3,0.08245060770385786,0.9698711999302754,0.08849356855664935,0.9645223390488398
+End of the epoch:
+tr loss: 0.0824506077038579,tr accurary: 0.9699
+val loss: 0.0884935685566493,val accuracy: 0.9645
+Time taken: 76.61 seconds
+estimated time to finish: 47 epochs
+Epoch: 5
+learning rate: 0.00125
+Epoch 5: 100%|████████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0527, acc=0.9807]
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+4,0.0733554656809985,0.9730087040834522,0.06670567952096462,0.9749119395301455
+End of the epoch:
+tr loss: 0.0733554656809985,tr accurary: 0.9730
+val loss: 0.0667056795209646,val accuracy: 0.9749
+Time taken: 79.11 seconds
+estimated time to finish: 46 epochs
+Epoch: 6
+learning rate: 0.0025
+Epoch 6: 100%|████████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0511, acc=0.9813]
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.08batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+5,0.06712527860078255,0.9751699668024474,0.0630575010464305,0.9763897941226051
+End of the epoch:
+tr loss: 0.0671252786007825,tr accurary: 0.9752
+val loss: 0.0630575010464305,val accuracy: 0.9764
+Time taken: 76.73 seconds
+estimated time to finish: 45 epochs
+Epoch: 7
+learning rate: 0.000625
+Epoch 7: 100%|████████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0539, acc=0.9797]
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+6,0.06405254620819562,0.9761962890625,0.0628897412901833,0.9763605481102353
+End of the epoch:
+tr loss: 0.0640525462081956,tr accurary: 0.9762
+val loss: 0.0628897412901833,val accuracy: 0.9764
+Time taken: 79.11 seconds
+estimated time to finish: 44 epochs
+Epoch: 8
+learning rate: 0.00125
+Epoch 8: 100%|████████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0536, acc=0.9796]
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+7,0.06344763407438526,0.9764905758148933,0.061550170449273925,0.9768400646391369
+End of the epoch:
+tr loss: 0.0634476340743853,tr accurary: 0.9765
+val loss: 0.0615501704492739,val accuracy: 0.9768
+Time taken: 76.54 seconds
+estimated time to finish: 43 epochs
+Epoch: 9
+learning rate: 0.0003125
+Epoch 9: 100%|████████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0472, acc=0.9827]
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+8,0.06018044017839874,0.9777976293196522,0.05772109870754537,0.9786440077282134
+End of the epoch:
+tr loss: 0.0601804401783987,tr accurary: 0.9778
+val loss: 0.0577210987075454,val accuracy: 0.9786
+Time taken: 79.14 seconds
+estimated time to finish: 42 epochs
+Epoch: 10
+learning rate: 0.000625
+Epoch 10: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0466, acc=0.9828]
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+9,0.059586503217461784,0.9780164329539692,0.05716460845654919,0.9788222312927246
+End of the epoch:
+tr loss: 0.0595865032174618,tr accurary: 0.9780
+val loss: 0.0571646084565492,val accuracy: 0.9788
+Time taken: 76.66 seconds
+estimated time to finish: 41 epochs
+Epoch: 11
+learning rate: 0.00015625
+Epoch 11: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0462, acc=0.9830]
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.06batch/s]
+10,0.05830210737469533,0.978519064213512,0.05771706129113833,0.9784956886654809
+End of the epoch:
+tr loss: 0.0583021073746953,tr accurary: 0.9785
+val loss: 0.0577170612911383,val accuracy: 0.9785
+Time taken: 75.82 seconds
+estimated time to finish: 40 epochs
+Epoch: 12
+learning rate: 0.0003125
+Epoch 12: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0454, acc=0.9833]
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+11,0.05823872480727466,0.9784905165646454,0.05724616827709334,0.9787560644603911
+End of the epoch:
+tr loss: 0.0582387248072747,tr accurary: 0.9785
+val loss: 0.0572461682770933,val accuracy: 0.9788
+Time taken: 78.44 seconds
+estimated time to finish: 39 epochs
+Epoch: 13
+learning rate: 7.8125e-05
+Epoch 13: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0473, acc=0.9825]
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+12,0.057929311378111005,0.9785993306681025,0.05800442211329937,0.9782569976080031
+End of the epoch:
+tr loss: 0.0579293113781110,tr accurary: 0.9786
+val loss: 0.0580044221132994,val accuracy: 0.9783
+Time taken: 75.73 seconds
+estimated time to finish: 38 epochs
+Epoch: 14
+learning rate: 0.00015625
+Epoch 14: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0465, acc=0.9830]
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.97batch/s]
+13,0.057107264555980065,0.9789609759408295,0.05729173416537898,0.9786012740362258
+End of the epoch:
+tr loss: 0.0571072645559801,tr accurary: 0.9790
+val loss: 0.0572917341653790,val accuracy: 0.9786
+Time taken: 78.45 seconds
+estimated time to finish: 37 epochs
+Epoch: 15
+learning rate: 3.90625e-05
+Epoch 15: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0465, acc=0.9829]
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+14,0.056698492150248886,0.9791373771199486,0.057012585390891345,0.9787255922953287
+End of the epoch:
+tr loss: 0.0566984921502489,tr accurary: 0.9791
+val loss: 0.0570125853908913,val accuracy: 0.9787
+Time taken: 76.64 seconds
+estimated time to finish: 36 epochs
+Epoch: 16
+learning rate: 7.8125e-05
+Epoch 16: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0464, acc=0.9830]
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+15,0.0566169011237873,0.9791622297910073,0.05703963818294661,0.9787132853553409
+End of the epoch:
+tr loss: 0.0566169011237873,tr accurary: 0.9792
+val loss: 0.0570396381829466,val accuracy: 0.9787
+Time taken: 78.41 seconds
+estimated time to finish: 35 epochs
+Epoch: 17
+learning rate: 1.953125e-05
+Epoch 17: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0464, acc=0.9830]
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+16,0.056476135657151656,0.9792191074169991,0.05693641331579004,0.9787606738862538
+End of the epoch:
+tr loss: 0.0564761356571517,tr accurary: 0.9792
+val loss: 0.0569364133157900,val accuracy: 0.9788
+Time taken: 76.63 seconds
+estimated time to finish: 34 epochs
+Epoch: 18
+learning rate: 3.90625e-05
+Epoch 18: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0464, acc=0.9830]
+Epoch 18: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+17,0.05644222334579972,0.9792295611023732,0.05691215520103773,0.9787712324233282
+End of the epoch:
+tr loss: 0.0564422233457997,tr accurary: 0.9792
+val loss: 0.0569121552010377,val accuracy: 0.9788
+Time taken: 76.58 seconds
+estimated time to finish: 33 epochs
+Epoch: 19
+learning rate: 9.765625e-06
+Epoch 19: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 19: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.03batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+18,0.056376215830424035,0.9792560844040461,0.056896510223547615,0.9787766138712565
+End of the epoch:
+tr loss: 0.0563762158304240,tr accurary: 0.9793
+val loss: 0.0568965102235476,val accuracy: 0.9788
+Time taken: 79.07 seconds
+estimated time to finish: 32 epochs
+Epoch: 20
+learning rate: 1.953125e-05
+Epoch 20: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 20: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+19,0.05635899291526574,0.9792623968845428,0.05687306776997589,0.9787876492454892
+End of the epoch:
+tr loss: 0.0563589929152657,tr accurary: 0.9793
+val loss: 0.0568730677699759,val accuracy: 0.9788
+Time taken: 76.61 seconds
+estimated time to finish: 31 epochs
+Epoch: 21
+learning rate: 4.8828125e-06
+Epoch 21: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 21: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.98batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+20,0.05632804289523953,0.9792744667825958,0.05686373999785809,0.9787916001819429
+End of the epoch:
+tr loss: 0.0563280428952395,tr accurary: 0.9793
+val loss: 0.0568637399978581,val accuracy: 0.9788
+Time taken: 79.10 seconds
+estimated time to finish: 30 epochs
+Epoch: 22
+learning rate: 9.765625e-06
+Epoch 22: 100%|███████████████████████████████████████████| 176/176 [01:10<00:00,  2.51batch/s, loss=0.0463, acc=0.9830]
+Epoch 22: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+21,0.05631879869630606,0.9792781454350231,0.056854019473705976,0.9787958463033041
+End of the epoch:
+tr loss: 0.0563187986963061,tr accurary: 0.9793
+val loss: 0.0568540194737060,val accuracy: 0.9788
+Time taken: 76.58 seconds
+estimated time to finish: 29 epochs
+Epoch: 23
+learning rate: 2.44140625e-06
+Epoch 23: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 23: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+22,0.056304029493291094,0.9792830321656144,0.05685082530336721,0.9787980034237816
+End of the epoch:
+tr loss: 0.0563040294932911,tr accurary: 0.9793
+val loss: 0.0568508253033672,val accuracy: 0.9788
+Time taken: 76.60 seconds
+estimated time to finish: 28 epochs
+Epoch: 24
+learning rate: 4.8828125e-06
+Epoch 24: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 24: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.97batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+23,0.05629970709369458,0.9792846647036739,0.05684475955509004,0.9788009779793876
+End of the epoch:
+tr loss: 0.0562997070936946,tr accurary: 0.9793
+val loss: 0.0568447595550900,val accuracy: 0.9788
+Time taken: 79.18 seconds
+estimated time to finish: 27 epochs
+Epoch: 25
+learning rate: 1.220703125e-06
+Epoch 25: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 25: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.97batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+24,0.0562925267002722,0.9792872223466337,0.05684347645867439,0.9788013866969517
+End of the epoch:
+tr loss: 0.0562925267002722,tr accurary: 0.9793
+val loss: 0.0568434764586744,val accuracy: 0.9788
+Time taken: 76.57 seconds
+estimated time to finish: 26 epochs
+Epoch: 26
+learning rate: 2.44140625e-06
+Epoch 26: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 26: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+25,0.05629050537157331,0.9792880930335988,0.056840685240569566,0.9788031123933338
+End of the epoch:
+tr loss: 0.0562905053715733,tr accurary: 0.9793
+val loss: 0.0568406852405696,val accuracy: 0.9788
+Time taken: 79.05 seconds
+estimated time to finish: 25 epochs
+Epoch: 27
+learning rate: 6.103515625e-07
+Epoch 27: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 27: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+26,0.05628706672668627,0.9792894643655687,0.05683986886980988,0.9788034075782412
+End of the epoch:
+tr loss: 0.0562870667266863,tr accurary: 0.9793
+val loss: 0.0568398688698099,val accuracy: 0.9788
+Time taken: 76.60 seconds
+estimated time to finish: 24 epochs
+Epoch: 28
+learning rate: 1.220703125e-06
+Epoch 28: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 28: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.02batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+27,0.05628635251785651,0.9792898071985612,0.05683936427036921,0.9788037027631488
+End of the epoch:
+tr loss: 0.0562863525178565,tr accurary: 0.9793
+val loss: 0.0568393642703692,val accuracy: 0.9788
+Time taken: 79.06 seconds
+estimated time to finish: 23 epochs
+Epoch: 29
+learning rate: 3.0517578125e-07
+Epoch 29: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 29: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+28,0.05628471471868806,0.9792902915181855,0.056839197962766604,0.9788034756978353
+End of the epoch:
+tr loss: 0.0562847147186881,tr accurary: 0.9793
+val loss: 0.0568391979627666,val accuracy: 0.9788
+Time taken: 76.57 seconds
+estimated time to finish: 22 epochs
+Epoch: 30
+learning rate: 6.103515625e-07
+Epoch 30: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 30: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.05batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+29,0.05628438009089988,0.9792902643092178,0.056838732124084516,0.978804520198277
+End of the epoch:
+tr loss: 0.0562843800908999,tr accurary: 0.9793
+val loss: 0.0568387321240845,val accuracy: 0.9788
+Time taken: 76.58 seconds
+estimated time to finish: 21 epochs
+Epoch: 31
+learning rate: 1.52587890625e-07
+Epoch 31: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 31: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+30,0.05628376916986219,0.979290623467591,0.05683862515503452,0.9788040887741816
+End of the epoch:
+tr loss: 0.0562837691698622,tr accurary: 0.9793
+val loss: 0.0568386251550345,val accuracy: 0.9788
+Time taken: 79.07 seconds
+estimated time to finish: 20 epochs
+Epoch: 32
+learning rate: 3.0517578125e-07
+Epoch 32: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 32: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+31,0.05628361676244355,0.9792909445334093,0.056838596860567726,0.9788038844153994
+End of the epoch:
+tr loss: 0.0562836167624435,tr accurary: 0.9793
+val loss: 0.0568385968605677,val accuracy: 0.9788
+Time taken: 76.57 seconds
+estimated time to finish: 19 epochs
+Epoch: 33
+learning rate: 7.62939453125e-08
+Epoch 33: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 33: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.00batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+32,0.05628335798496697,0.9792907486288421,0.05683853335323788,0.9788037027631488
+End of the epoch:
+tr loss: 0.0562833579849670,tr accurary: 0.9793
+val loss: 0.0568385333532379,val accuracy: 0.9788
+Time taken: 79.12 seconds
+estimated time to finish: 18 epochs
+Epoch: 34
+learning rate: 1.52587890625e-07
+Epoch 34: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 34: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+33,0.056283349742562896,0.979290982625964,0.05683850222045467,0.9788042023068383
+End of the epoch:
+tr loss: 0.0562833497425629,tr accurary: 0.9793
+val loss: 0.0568385022204547,val accuracy: 0.9788
+Time taken: 76.60 seconds
+estimated time to finish: 17 epochs
+Epoch: 35
+learning rate: 3.814697265625e-08
+Epoch 35: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 35: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.01batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+34,0.05628330083019213,0.9792908302557451,0.056838465499736014,0.9788037027631488
+End of the epoch:
+tr loss: 0.0562833008301921,tr accurary: 0.9793
+val loss: 0.0568384654997360,val accuracy: 0.9788
+Time taken: 76.54 seconds
+estimated time to finish: 16 epochs
+Epoch: 36
+learning rate: 7.62939453125e-08
+Epoch 36: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 36: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  7.00batch/s]
+35,0.05628323697414616,0.9792909771841705,0.05683853565936997,0.9788039979480562
+End of the epoch:
+tr loss: 0.0562832369741462,tr accurary: 0.9793
+val loss: 0.0568385356593700,val accuracy: 0.9788
+Time taken: 78.45 seconds
+estimated time to finish: 15 epochs
+Epoch: 37
+learning rate: 1.9073486328125e-08
+Epoch 37: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 37: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.60batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold3/best_model.pth
+36,0.05628324257536724,0.9792910043931381,0.05683845077596959,0.9788041568937755
+End of the epoch:
+tr loss: 0.0562832425753672,tr accurary: 0.9793
+val loss: 0.0568384507759696,val accuracy: 0.9788
+Time taken: 76.22 seconds
+estimated time to finish: 14 epochs
+Epoch: 38
+learning rate: 3.814697265625e-08
+Epoch 38: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 38: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.97batch/s]
+37,0.056283256222365075,0.9792910914618347,0.05683850328482333,0.9788039752415248
+End of the epoch:
+tr loss: 0.0562832562223651,tr accurary: 0.9793
+val loss: 0.0568385032848233,val accuracy: 0.9788
+Time taken: 78.47 seconds
+estimated time to finish: 13 epochs
+Epoch: 39
+learning rate: 9.5367431640625e-09
+Epoch 39: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 39: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.95batch/s]
+38,0.05628325002063358,0.9792909227662352,0.05683854248906885,0.9788042477199009
+End of the epoch:
+tr loss: 0.0562832500206336,tr accurary: 0.9793
+val loss: 0.0568385424890688,val accuracy: 0.9788
+Time taken: 75.93 seconds
+estimated time to finish: 12 epochs
+Epoch: 40
+learning rate: 1.9073486328125e-08
+Epoch 40: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 40: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.02batch/s]
+39,0.05628325891137633,0.9792907431870487,0.056838508695364,0.9788041114807129
+End of the epoch:
+tr loss: 0.0562832589113763,tr accurary: 0.9793
+val loss: 0.0568385086953640,val accuracy: 0.9788
+Time taken: 78.41 seconds
+estimated time to finish: 11 epochs
+Epoch: 41
+learning rate: 4.76837158203125e-09
+Epoch 41: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 41: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.98batch/s]
+40,0.05628324087480675,0.9792909336498222,0.05683849822907221,0.9788039979480562
+End of the epoch:
+tr loss: 0.0562832408748068,tr accurary: 0.9793
+val loss: 0.0568384982290722,val accuracy: 0.9788
+Time taken: 75.95 seconds
+estimated time to finish: 10 epochs
+Epoch: 42
+learning rate: 9.5367431640625e-09
+Epoch 42: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 42: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+41,0.056283270166961004,0.9792909173244416,0.056838491754162876,0.9788040433611188
+End of the epoch:
+tr loss: 0.0562832701669610,tr accurary: 0.9793
+val loss: 0.0568384917541629,val accuracy: 0.9788
+Time taken: 78.40 seconds
+estimated time to finish: 9 epochs
+Epoch: 43
+learning rate: 2.384185791015625e-09
+Epoch 43: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 43: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.95batch/s]
+42,0.0562832687321131,0.9792910370438993,0.05683852590265728,0.978804383959089
+End of the epoch:
+tr loss: 0.0562832687321131,tr accurary: 0.9793
+val loss: 0.0568385259026573,val accuracy: 0.9788
+Time taken: 75.98 seconds
+estimated time to finish: 8 epochs
+Epoch: 44
+learning rate: 4.76837158203125e-09
+Epoch 44: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 44: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:03<00:00, 12.03batch/s]
+43,0.05628325081245705,0.9792908574647128,0.05683852927315803,0.9788037481762114
+End of the epoch:
+tr loss: 0.0562832508124571,tr accurary: 0.9793
+val loss: 0.0568385292731580,val accuracy: 0.9788
+Time taken: 76.05 seconds
+estimated time to finish: 7 epochs
+Epoch: 45
+learning rate: 1.1920928955078125e-09
+Epoch 45: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 45: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+44,0.05628326735040771,0.9792907812796033,0.05683852554786773,0.9788040433611188
+End of the epoch:
+tr loss: 0.0562832673504077,tr accurary: 0.9793
+val loss: 0.0568385255478677,val accuracy: 0.9788
+Time taken: 78.41 seconds
+estimated time to finish: 6 epochs
+Epoch: 46
+learning rate: 2.384185791015625e-09
+Epoch 46: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 46: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.00batch/s]
+45,0.056283228141860174,0.9792910696946605,0.056838539916844594,0.9788039071219308
+End of the epoch:
+tr loss: 0.0562832281418602,tr accurary: 0.9793
+val loss: 0.0568385399168446,val accuracy: 0.9788
+Time taken: 75.94 seconds
+estimated time to finish: 5 epochs
+Epoch: 47
+learning rate: 5.960464477539063e-10
+Epoch 47: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 47: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+46,0.0562832396100149,0.9792907377452551,0.0568385116223778,0.9788033848717099
+End of the epoch:
+tr loss: 0.0562832396100149,tr accurary: 0.9793
+val loss: 0.0568385116223778,val accuracy: 0.9788
+Time taken: 78.41 seconds
+estimated time to finish: 4 epochs
+Epoch: 48
+learning rate: 1.1920928955078125e-09
+Epoch 48: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 48: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.99batch/s]
+47,0.056283241799486516,0.979290900999061,0.056838512598049076,0.9788034529913039
+End of the epoch:
+tr loss: 0.0562832417994865,tr accurary: 0.9793
+val loss: 0.0568385125980491,val accuracy: 0.9788
+Time taken: 75.95 seconds
+estimated time to finish: 3 epochs
+Epoch: 49
+learning rate: 2.9802322387695313e-10
+Epoch 49: 100%|███████████████████████████████████████████| 176/176 [01:12<00:00,  2.43batch/s, loss=0.0463, acc=0.9830]
+Epoch 49: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:06<00:00,  6.93batch/s]
+48,0.05628326469328196,0.9792909935095511,0.056838528031394595,0.9788038617088681
+End of the epoch:
+tr loss: 0.0562832646932820,tr accurary: 0.9793
+val loss: 0.0568385280313946,val accuracy: 0.9788
+Time taken: 78.52 seconds
+estimated time to finish: 2 epochs
+Epoch: 50
+learning rate: 5.960464477539063e-10
+Epoch 50: 100%|███████████████████████████████████████████| 176/176 [01:09<00:00,  2.52batch/s, loss=0.0463, acc=0.9830]
+Epoch 50: 100%|██████████████████████████████████████████████████████████████████████| 42/42 [00:05<00:00,  7.01batch/s]
+49,0.056283264597625435,0.9792910424856929,0.056838540182936756,0.9788035665239606
+End of the epoch:
+tr loss: 0.0562832645976254,tr accurary: 0.9793
+val loss: 0.0568385401829368,val accuracy: 0.9788
+Time taken: 75.92 seconds
+estimated time to finish: 1 epochs
+2025-07-10 05:25:13 INFO     discord.client logging in using static token
+2025-07-10 05:25:15 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: ce3999c8ce5ee69991f02c5fb0761df1).
+Processing fold4
+Epoch: 1
+learning rate: 0.01
+Epoch 1: 100%|████████████████████████████████████████████| 174/174 [01:22<00:00,  2.10batch/s, loss=0.0958, acc=0.9598]
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.06batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+0,0.20638204091924361,0.932385017131937,0.12050039448790788,0.9563038441357692
+End of the epoch:
+tr loss: 0.2063820409192436,tr accurary: 0.9324
+val loss: 0.1205003944879079,val accuracy: 0.9563
+Time taken: 90.09 seconds
+estimated time to finish: 50 epochs
+Epoch: 2
+learning rate: 0.01
+Epoch 2: 100%|████████████████████████████████████████████| 174/174 [01:09<00:00,  2.52batch/s, loss=0.0735, acc=0.9701]
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+1,0.09779662636761692,0.9645009972583288,0.09029948102176519,0.9668654130967282
+End of the epoch:
+tr loss: 0.0977966263676169,tr accurary: 0.9645
+val loss: 0.0902994810217652,val accuracy: 0.9669
+Time taken: 76.25 seconds
+estimated time to finish: 49 epochs
+Epoch: 3
+learning rate: 0.0025
+Epoch 3: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0720, acc=0.9702]
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+2,0.08309699988913262,0.9697476693953591,0.09240705091814969,0.9642606914372734
+End of the epoch:
+tr loss: 0.0830969998891326,tr accurary: 0.9697
+val loss: 0.0924070509181497,val accuracy: 0.9643
+Time taken: 78.31 seconds
+estimated time to finish: 48 epochs
+Epoch: 4
+learning rate: 0.005
+Epoch 4: 100%|████████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0591, acc=0.9764]
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+3,0.07696485106201692,0.9717265381210152,0.07330563824973713,0.9726107686922695
+End of the epoch:
+tr loss: 0.0769648510620169,tr accurary: 0.9717
+val loss: 0.0733056382497371,val accuracy: 0.9726
+Time taken: 76.42 seconds
+estimated time to finish: 47 epochs
+Epoch: 5
+learning rate: 0.00125
+Epoch 5: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0510, acc=0.9797]
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.63batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+4,0.06518251260464218,0.9759448369344076,0.059264612090851064,0.9779318709399819
+End of the epoch:
+tr loss: 0.0651825126046422,tr accurary: 0.9759
+val loss: 0.0592646120908511,val accuracy: 0.9779
+Time taken: 76.40 seconds
+estimated time to finish: 46 epochs
+Epoch: 6
+learning rate: 0.0025
+Epoch 6: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0481, acc=0.9811]
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+5,0.060793246699218775,0.9776257372450554,0.05762560682072824,0.9784508172978353
+End of the epoch:
+tr loss: 0.0607932466992188,tr accurary: 0.9776
+val loss: 0.0576256068207282,val accuracy: 0.9785
+Time taken: 78.80 seconds
+estimated time to finish: 45 epochs
+Epoch: 7
+learning rate: 0.000625
+Epoch 7: 100%|████████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0468, acc=0.9818]
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+6,0.05736447303373923,0.9788381423073254,0.05648364791471655,0.9788544586350246
+End of the epoch:
+tr loss: 0.0573644730337392,tr accurary: 0.9788
+val loss: 0.0564836479147166,val accuracy: 0.9789
+Time taken: 76.50 seconds
+estimated time to finish: 44 epochs
+Epoch: 8
+learning rate: 0.00125
+Epoch 8: 100%|████████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0456, acc=0.9823]
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+7,0.056342911810196676,0.9792005166240122,0.05568410678463088,0.9791807733188018
+End of the epoch:
+tr loss: 0.0563429118101967,tr accurary: 0.9792
+val loss: 0.0556841067846309,val accuracy: 0.9792
+Time taken: 78.98 seconds
+estimated time to finish: 43 epochs
+Epoch: 9
+learning rate: 0.0003125
+Epoch 9: 100%|████████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0454, acc=0.9823]
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+8,0.05510307502686635,0.9796838212287289,0.05474940720348727,0.9795592924507942
+End of the epoch:
+tr loss: 0.0551030750268664,tr accurary: 0.9797
+val loss: 0.0547494072034873,val accuracy: 0.9796
+Time taken: 76.49 seconds
+estimated time to finish: 42 epochs
+Epoch: 10
+learning rate: 0.000625
+Epoch 10: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0449, acc=0.9823]
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.66batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+9,0.05439109086519343,0.9799728832025637,0.054409768452960486,0.9796790444389891
+End of the epoch:
+tr loss: 0.0543910908651934,tr accurary: 0.9800
+val loss: 0.0544097684529605,val accuracy: 0.9797
+Time taken: 76.51 seconds
+estimated time to finish: 41 epochs
+Epoch: 11
+learning rate: 0.00015625
+Epoch 11: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0441, acc=0.9828]
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+10,0.05375964221298352,0.9802056235828619,0.054543499088748386,0.979567448737213
+End of the epoch:
+tr loss: 0.0537596422129835,tr accurary: 0.9802
+val loss: 0.0545434990887484,val accuracy: 0.9796
+Time taken: 78.27 seconds
+estimated time to finish: 40 epochs
+Epoch: 12
+learning rate: 0.0003125
+Epoch 12: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0439, acc=0.9829]
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.76batch/s]
+11,0.053504241501976704,0.980297302377635,0.05443016641377085,0.9796364294231267
+End of the epoch:
+tr loss: 0.0535042415019767,tr accurary: 0.9803
+val loss: 0.0544301664137709,val accuracy: 0.9796
+Time taken: 75.46 seconds
+estimated time to finish: 39 epochs
+Epoch: 13
+learning rate: 7.8125e-05
+Epoch 13: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0438, acc=0.9831]
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+12,0.053319346587890865,0.9803532841561855,0.0542123534443958,0.9796416772663264
+End of the epoch:
+tr loss: 0.0533193465878909,tr accurary: 0.9804
+val loss: 0.0542123534443958,val accuracy: 0.9796
+Time taken: 78.90 seconds
+estimated time to finish: 38 epochs
+Epoch: 14
+learning rate: 0.00015625
+Epoch 14: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0439, acc=0.9831]
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.16batch/s]
+13,0.05320141771701218,0.9804022613613085,0.054429249539559715,0.9795104390349836
+End of the epoch:
+tr loss: 0.0532014177170122,tr accurary: 0.9804
+val loss: 0.0544292495395597,val accuracy: 0.9795
+Time taken: 75.75 seconds
+estimated time to finish: 37 epochs
+Epoch: 15
+learning rate: 3.90625e-05
+Epoch 15: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0437, acc=0.9832]
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+14,0.052782995208840944,0.9806053337009474,0.054149780196050254,0.9796494963419372
+End of the epoch:
+tr loss: 0.0527829952088409,tr accurary: 0.9806
+val loss: 0.0541497801960503,val accuracy: 0.9796
+Time taken: 78.96 seconds
+estimated time to finish: 36 epochs
+Epoch: 16
+learning rate: 7.8125e-05
+Epoch 16: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0436, acc=0.9832]
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+15,0.05266622016099335,0.980647569415213,0.054090130477320426,0.979676388903876
+End of the epoch:
+tr loss: 0.0526662201609934,tr accurary: 0.9806
+val loss: 0.0540901304773204,val accuracy: 0.9797
+Time taken: 76.48 seconds
+estimated time to finish: 35 epochs
+Epoch: 17
+learning rate: 1.953125e-05
+Epoch 17: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0436, acc=0.9832]
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+16,0.052582586772911166,0.9806827512280695,0.0540164390074614,0.9797164748386783
+End of the epoch:
+tr loss: 0.0525825867729112,tr accurary: 0.9807
+val loss: 0.0540164390074614,val accuracy: 0.9797
+Time taken: 78.91 seconds
+estimated time to finish: 34 epochs
+Epoch: 18
+learning rate: 3.90625e-05
+Epoch 18: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0436, acc=0.9832]
+Epoch 18: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+17,0.05255081248737272,0.9806932690499843,0.054013429755005386,0.9797117117360152
+End of the epoch:
+tr loss: 0.0525508124873727,tr accurary: 0.9807
+val loss: 0.0540134297550054,val accuracy: 0.9797
+Time taken: 76.48 seconds
+estimated time to finish: 33 epochs
+Epoch: 19
+learning rate: 9.765625e-06
+Epoch 19: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9832]
+Epoch 19: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.73batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+18,0.05250360831703948,0.980711125779426,0.05397549664694301,0.9797319233088203
+End of the epoch:
+tr loss: 0.0525036083170395,tr accurary: 0.9807
+val loss: 0.0539754966469430,val accuracy: 0.9797
+Time taken: 76.44 seconds
+estimated time to finish: 32 epochs
+Epoch: 20
+learning rate: 1.953125e-05
+Epoch 20: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 20: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+19,0.05248907479275575,0.9807179823689077,0.05395638623701934,0.9797417234979282
+End of the epoch:
+tr loss: 0.0524890747927557,tr accurary: 0.9807
+val loss: 0.0539563862370193,val accuracy: 0.9797
+Time taken: 79.09 seconds
+estimated time to finish: 31 epochs
+Epoch: 21
+learning rate: 4.8828125e-06
+Epoch 21: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 21: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+20,0.05246775475298536,0.9807267463070223,0.0539484646850528,0.9797455381951938
+End of the epoch:
+tr loss: 0.0524677547529854,tr accurary: 0.9807
+val loss: 0.0539484646850528,val accuracy: 0.9797
+Time taken: 76.52 seconds
+estimated time to finish: 30 epochs
+Epoch: 22
+learning rate: 9.765625e-06
+Epoch 22: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 22: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+21,0.05245963798771645,0.9807302814790573,0.05394005454376916,0.9797490789086779
+End of the epoch:
+tr loss: 0.0524596379877164,tr accurary: 0.9807
+val loss: 0.0539400545437692,val accuracy: 0.9797
+Time taken: 79.11 seconds
+estimated time to finish: 29 epochs
+Epoch: 23
+learning rate: 2.44140625e-06
+Epoch 23: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 23: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+22,0.052449254608102916,0.9807340084821329,0.05393552347935366,0.979751439384334
+End of the epoch:
+tr loss: 0.0524492546081029,tr accurary: 0.9807
+val loss: 0.0539355234793537,val accuracy: 0.9798
+Time taken: 76.51 seconds
+estimated time to finish: 28 epochs
+Epoch: 24
+learning rate: 4.8828125e-06
+Epoch 24: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 24: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.65batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+23,0.052445321011988594,0.9807355814966662,0.053930738889380714,0.9797536523302616
+End of the epoch:
+tr loss: 0.0524453210119886,tr accurary: 0.9807
+val loss: 0.0539307388893807,val accuracy: 0.9798
+Time taken: 76.45 seconds
+estimated time to finish: 27 epochs
+Epoch: 25
+learning rate: 1.220703125e-06
+Epoch 25: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0435, acc=0.9833]
+Epoch 25: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+24,0.052440464742824267,0.9807373518231272,0.05392911968474889,0.9797556334437586
+End of the epoch:
+tr loss: 0.0524404647428243,tr accurary: 0.9807
+val loss: 0.0539291196847489,val accuracy: 0.9798
+Time taken: 78.73 seconds
+estimated time to finish: 26 epochs
+Epoch: 26
+learning rate: 2.44140625e-06
+Epoch 26: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 26: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.61batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+25,0.0524385764060178,0.9807378067367378,0.05392673315264244,0.9797565818491561
+End of the epoch:
+tr loss: 0.0524385764060178,tr accurary: 0.9807
+val loss: 0.0539267331526424,val accuracy: 0.9798
+Time taken: 76.44 seconds
+estimated time to finish: 25 epochs
+Epoch: 27
+learning rate: 6.103515625e-07
+Epoch 27: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 27: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.15batch/s]
+26,0.052436375883461415,0.9807386891595249,0.053926767935739695,0.9797570455140172
+End of the epoch:
+tr loss: 0.0524363758834614,tr accurary: 0.9807
+val loss: 0.0539267679357397,val accuracy: 0.9798
+Time taken: 78.23 seconds
+estimated time to finish: 24 epochs
+Epoch: 28
+learning rate: 1.220703125e-06
+Epoch 28: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 28: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+27,0.05243576913215648,0.9807391276304749,0.0539258585738543,0.9797570876653682
+End of the epoch:
+tr loss: 0.0524357691321565,tr accurary: 0.9807
+val loss: 0.0539258585738543,val accuracy: 0.9798
+Time taken: 76.40 seconds
+estimated time to finish: 23 epochs
+Epoch: 29
+learning rate: 3.0517578125e-07
+Epoch 29: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 29: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+28,0.052434752299182714,0.9807391440731356,0.05392574590954991,0.9797570244383417
+End of the epoch:
+tr loss: 0.0524347522991827,tr accurary: 0.9807
+val loss: 0.0539257459095499,val accuracy: 0.9798
+Time taken: 78.88 seconds
+estimated time to finish: 22 epochs
+Epoch: 30
+learning rate: 6.103515625e-07
+Epoch 30: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 30: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.15batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+29,0.05243451004826474,0.9807391769584568,0.05392541575826992,0.9797571719680702
+End of the epoch:
+tr loss: 0.0524345100482647,tr accurary: 0.9807
+val loss: 0.0539254157582699,val accuracy: 0.9798
+Time taken: 76.44 seconds
+estimated time to finish: 21 epochs
+Epoch: 31
+learning rate: 1.52587890625e-07
+Epoch 31: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0435, acc=0.9833]
+Epoch 31: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.61batch/s]
+30,0.05243412570107257,0.9807398894737507,0.05392552377110687,0.9797574038005007
+End of the epoch:
+tr loss: 0.0524341257010726,tr accurary: 0.9807
+val loss: 0.0539255237711069,val accuracy: 0.9798
+Time taken: 75.71 seconds
+estimated time to finish: 20 epochs
+Epoch: 32
+learning rate: 3.0517578125e-07
+Epoch 32: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 32: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+31,0.052434090599845884,0.9807395386969906,0.05392544893599347,0.9797572351950967
+End of the epoch:
+tr loss: 0.0524340905998459,tr accurary: 0.9807
+val loss: 0.0539254489359935,val accuracy: 0.9798
+Time taken: 78.34 seconds
+estimated time to finish: 19 epochs
+Epoch: 33
+learning rate: 7.62939453125e-08
+Epoch 33: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 33: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.63batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+32,0.052433931600602196,0.9807396812000494,0.053925358849829734,0.9797575091788782
+End of the epoch:
+tr loss: 0.0524339316006022,tr accurary: 0.9807
+val loss: 0.0539253588498297,val accuracy: 0.9798
+Time taken: 76.45 seconds
+estimated time to finish: 18 epochs
+Epoch: 34
+learning rate: 1.52587890625e-07
+Epoch 34: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 34: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+33,0.05243392432129931,0.9807399497635063,0.053925437657214,0.9797573405734742
+End of the epoch:
+tr loss: 0.0524339243212993,tr accurary: 0.9807
+val loss: 0.0539254376572140,val accuracy: 0.9798
+Time taken: 78.33 seconds
+estimated time to finish: 17 epochs
+Epoch: 35
+learning rate: 3.814697265625e-08
+Epoch 35: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 35: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+34,0.05243392451398674,0.9807395770631987,0.05392549540950448,0.9797578674653618
+End of the epoch:
+tr loss: 0.0524339245139867,tr accurary: 0.9807
+val loss: 0.0539254954095045,val accuracy: 0.9798
+Time taken: 75.78 seconds
+estimated time to finish: 16 epochs
+Epoch: 36
+learning rate: 7.62939453125e-08
+Epoch 36: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 36: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+35,0.05243393214654991,0.9807398127413344,0.053925444366852884,0.9797574248761762
+End of the epoch:
+tr loss: 0.0524339321465499,tr accurary: 0.9807
+val loss: 0.0539254443668529,val accuracy: 0.9798
+Time taken: 78.31 seconds
+estimated time to finish: 15 epochs
+Epoch: 37
+learning rate: 1.9073486328125e-08
+Epoch 37: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 37: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+36,0.05243389448686235,0.9807396263911806,0.05392540098059902,0.9797569822869907
+End of the epoch:
+tr loss: 0.0524338944868624,tr accurary: 0.9807
+val loss: 0.0539254009805990,val accuracy: 0.9798
+Time taken: 75.80 seconds
+estimated time to finish: 14 epochs
+Epoch: 38
+learning rate: 3.814697265625e-08
+Epoch 38: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 38: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+37,0.05243391021229755,0.9807397360089182,0.05392544313195002,0.9797572141194212
+End of the epoch:
+tr loss: 0.0524339102122975,tr accurary: 0.9807
+val loss: 0.0539254431319500,val accuracy: 0.9798
+Time taken: 78.35 seconds
+estimated time to finish: 13 epochs
+Epoch: 39
+learning rate: 9.5367431640625e-09
+Epoch 39: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 39: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+38,0.05243390098471066,0.9807397140853706,0.05392537183689149,0.9797572984221232
+End of the epoch:
+tr loss: 0.0524339009847107,tr accurary: 0.9807
+val loss: 0.0539253718368915,val accuracy: 0.9798
+Time taken: 75.82 seconds
+estimated time to finish: 12 epochs
+Epoch: 40
+learning rate: 1.9073486328125e-08
+Epoch 40: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 40: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.61batch/s]
+39,0.052433894465452636,0.9807395825440857,0.053925387684811546,0.9797572562707721
+End of the epoch:
+tr loss: 0.0524338944654526,tr accurary: 0.9807
+val loss: 0.0539253876848115,val accuracy: 0.9798
+Time taken: 75.80 seconds
+estimated time to finish: 11 epochs
+Epoch: 41
+learning rate: 4.76837158203125e-09
+Epoch 41: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 41: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+40,0.05243389624245893,0.9807394948498956,0.05392537393622635,0.9797571930437456
+End of the epoch:
+tr loss: 0.0524338962424589,tr accurary: 0.9807
+val loss: 0.0539253739362264,val accuracy: 0.9798
+Time taken: 78.28 seconds
+estimated time to finish: 10 epochs
+Epoch: 42
+learning rate: 9.5367431640625e-09
+Epoch 42: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 42: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+41,0.05243391011595384,0.9807396866809363,0.0539253414582811,0.9797574881032027
+End of the epoch:
+tr loss: 0.0524339101159538,tr accurary: 0.9807
+val loss: 0.0539253414582811,val accuracy: 0.9798
+Time taken: 76.52 seconds
+estimated time to finish: 9 epochs
+Epoch: 43
+learning rate: 2.384185791015625e-09
+Epoch 43: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 43: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.10batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold4/best_model.pth
+42,0.05243390442096982,0.9807397579324657,0.05392533956476338,0.9797573194977987
+End of the epoch:
+tr loss: 0.0524339044209698,tr accurary: 0.9807
+val loss: 0.0539253395647634,val accuracy: 0.9798
+Time taken: 79.00 seconds
+estimated time to finish: 8 epochs
+Epoch: 44
+learning rate: 4.76837158203125e-09
+Epoch 44: 100%|███████████████████████████████████████████| 174/174 [01:09<00:00,  2.51batch/s, loss=0.0435, acc=0.9833]
+Epoch 44: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+43,0.05243390587683039,0.9807398127413344,0.053925349979110845,0.9797568979842887
+End of the epoch:
+tr loss: 0.0524339058768304,tr accurary: 0.9807
+val loss: 0.0539253499791108,val accuracy: 0.9798
+Time taken: 75.83 seconds
+estimated time to finish: 7 epochs
+Epoch: 45
+learning rate: 1.1920928955078125e-09
+Epoch 45: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 45: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.60batch/s]
+44,0.05243390503114667,0.9807398017795607,0.05392536092858288,0.9797570665896926
+End of the epoch:
+tr loss: 0.0524339050311467,tr accurary: 0.9807
+val loss: 0.0539253609285829,val accuracy: 0.9798
+Time taken: 75.78 seconds
+estimated time to finish: 6 epochs
+Epoch: 46
+learning rate: 2.384185791015625e-09
+Epoch 46: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 46: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+45,0.05243390405700467,0.9807397305280313,0.05392534479251883,0.9797577410113087
+End of the epoch:
+tr loss: 0.0524339040570047,tr accurary: 0.9807
+val loss: 0.0539253447925188,val accuracy: 0.9798
+Time taken: 78.39 seconds
+estimated time to finish: 5 epochs
+Epoch: 47
+learning rate: 5.960464477539063e-10
+Epoch 47: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 47: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.60batch/s]
+46,0.052433902643963526,0.9807397360089182,0.053925362369302884,0.9797569190599642
+End of the epoch:
+tr loss: 0.0524339026439635,tr accurary: 0.9807
+val loss: 0.0539253623693029,val accuracy: 0.9798
+Time taken: 75.84 seconds
+estimated time to finish: 4 epochs
+Epoch: 48
+learning rate: 1.1920928955078125e-09
+Epoch 48: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.43batch/s, loss=0.0435, acc=0.9833]
+Epoch 48: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+47,0.052433906176566396,0.9807399990914882,0.05392535133750399,0.9797571298167191
+End of the epoch:
+tr loss: 0.0524339061765664,tr accurary: 0.9807
+val loss: 0.0539253513375040,val accuracy: 0.9798
+Time taken: 78.14 seconds
+estimated time to finish: 3 epochs
+Epoch: 49
+learning rate: 2.9802322387695313e-10
+Epoch 49: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 49: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.72batch/s]
+48,0.05243389601765693,0.980739829183995,0.053925352140190855,0.9797572984221232
+End of the epoch:
+tr loss: 0.0524338960176569,tr accurary: 0.9807
+val loss: 0.0539253521401909,val accuracy: 0.9798
+Time taken: 75.69 seconds
+estimated time to finish: 2 epochs
+Epoch: 50
+learning rate: 5.960464477539063e-10
+Epoch 50: 100%|███████████████████████████████████████████| 174/174 [01:11<00:00,  2.42batch/s, loss=0.0435, acc=0.9833]
+Epoch 50: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+49,0.05243388970179119,0.9807397524515787,0.05392536881137948,0.9797573194977987
+End of the epoch:
+tr loss: 0.0524338897017912,tr accurary: 0.9807
+val loss: 0.0539253688113795,val accuracy: 0.9798
+Time taken: 78.38 seconds
+estimated time to finish: 1 epochs
+2025-07-10 06:29:58 INFO     discord.client logging in using static token
+2025-07-10 06:29:59 INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: f747f1d721b91e7d0bf2465fbe47548c).
+Processing fold5
+Epoch: 1
+learning rate: 0.01
+Epoch 1: 100%|████████████████████████████████████████████| 180/180 [01:22<00:00,  2.18batch/s, loss=0.0825, acc=0.9678]
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+0,0.18676821380396436,0.9392511056556861,0.10678138100838923,0.960693589933626
+End of the epoch:
+tr loss: 0.1867682138039644,tr accurary: 0.9393
+val loss: 0.1067813810083892,val accuracy: 0.9607
+Time taken: 89.63 seconds
+estimated time to finish: 50 epochs
+Epoch: 2
+learning rate: 0.01
+Epoch 2: 100%|████████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0793, acc=0.9664]
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.15batch/s]
+1,0.09920855248905458,0.9647665196715373,0.11045885348058009,0.9591888805012126
+End of the epoch:
+tr loss: 0.0992085524890546,tr accurary: 0.9648
+val loss: 0.1104588534805801,val accuracy: 0.9592
+Time taken: 80.54 seconds
+estimated time to finish: 49 epochs
+Epoch: 3
+learning rate: 0.0025
+Epoch 3: 100%|████████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0838, acc=0.9656]
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.10batch/s]
+2,0.09420319978080202,0.9661268183709522,0.11021228003632891,0.9574161152263264
+End of the epoch:
+tr loss: 0.0942031997808020,tr accurary: 0.9661
+val loss: 0.1102122800363289,val accuracy: 0.9574
+Time taken: 78.06 seconds
+estimated time to finish: 48 epochs
+Epoch: 4
+learning rate: 0.005
+Epoch 4: 100%|████████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0697, acc=0.9717]
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.65batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+3,0.08412044557692117,0.9697458221988864,0.07612935445465885,0.9710629012558486
+End of the epoch:
+tr loss: 0.0841204455769212,tr accurary: 0.9697
+val loss: 0.0761293544546588,val accuracy: 0.9711
+Time taken: 78.75 seconds
+estimated time to finish: 47 epochs
+Epoch: 5
+learning rate: 0.00125
+Epoch 5: 100%|████████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0530, acc=0.9785]
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.08batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+4,0.06921942194864009,0.9745657320966946,0.06567939334027059,0.9747317597106263
+End of the epoch:
+tr loss: 0.0692194219486401,tr accurary: 0.9746
+val loss: 0.0656793933402706,val accuracy: 0.9747
+Time taken: 81.34 seconds
+estimated time to finish: 46 epochs
+Epoch: 6
+learning rate: 0.0025
+Epoch 6: 100%|████████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0541, acc=0.9776]
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+5,0.06491646630432317,0.9760920259909317,0.06453871714708569,0.9748936537857894
+End of the epoch:
+tr loss: 0.0649164663043232,tr accurary: 0.9761
+val loss: 0.0645387171470857,val accuracy: 0.9749
+Time taken: 78.74 seconds
+estimated time to finish: 45 epochs
+Epoch: 7
+learning rate: 0.000625
+Epoch 7: 100%|████████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0513, acc=0.9812]
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.59batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+6,0.06233985857152207,0.9769223265069299,0.06038283118671113,0.9772640270191234
+End of the epoch:
+tr loss: 0.0623398585715221,tr accurary: 0.9769
+val loss: 0.0603828311867111,val accuracy: 0.9773
+Time taken: 78.83 seconds
+estimated time to finish: 44 epochs
+Epoch: 8
+learning rate: 0.00125
+Epoch 8: 100%|████████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0482, acc=0.9818]
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+7,0.06079670725548783,0.9775679254465356,0.058297471767598454,0.9781671670766977
+End of the epoch:
+tr loss: 0.0607967072554878,tr accurary: 0.9776
+val loss: 0.0582974717675985,val accuracy: 0.9782
+Time taken: 81.29 seconds
+estimated time to finish: 43 epochs
+Epoch: 9
+learning rate: 0.0003125
+Epoch 9: 100%|████████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0441, acc=0.9839]
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+8,0.058276833464992926,0.9784511688530362,0.05593520222784399,0.9791390555245536
+End of the epoch:
+tr loss: 0.0582768334649929,tr accurary: 0.9785
+val loss: 0.0559352022278440,val accuracy: 0.9791
+Time taken: 78.81 seconds
+estimated time to finish: 42 epochs
+Epoch: 10
+learning rate: 0.000625
+Epoch 10: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.42batch/s, loss=0.0440, acc=0.9837]
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.65batch/s]
+best model saved at final checkpoints/Se_PPP_ResUNet_ce_NoS/fold5/best_model.pth
+9,0.057166172781208405,0.9789276655082756,0.05559318774676585,0.9792754833514874
+End of the epoch:
+tr loss: 0.0571661727812084,tr accurary: 0.9789
+val loss: 0.0555931877467659,val accuracy: 0.9793
+Time taken: 78.90 seconds
+estimated time to finish: 41 epochs
+Epoch: 11
+learning rate: 0.00015625
+Epoch 11: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0438, acc=0.9840]
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+10,0.05633566107710036,0.9792165450304955,0.0559433082139099,0.9790757776616694
+End of the epoch:
+tr loss: 0.0563356610771004,tr accurary: 0.9792
+val loss: 0.0559433082139099,val accuracy: 0.9791
+Time taken: 80.59 seconds
+estimated time to finish: 40 epochs
+Epoch: 12
+learning rate: 0.0003125
+Epoch 12: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0440, acc=0.9838]
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+11,0.05630617063996516,0.9792033292592154,0.055978871145091216,0.9790328308776185
+End of the epoch:
+tr loss: 0.0563061706399652,tr accurary: 0.9792
+val loss: 0.0559788711450912,val accuracy: 0.9790
+Time taken: 78.09 seconds
+estimated time to finish: 39 epochs
+Epoch: 13
+learning rate: 7.8125e-05
+Epoch 13: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0447, acc=0.9834]
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.56batch/s]
+12,0.05562657061730469,0.979515511953016,0.05721491673490503,0.9784311357435289
+End of the epoch:
+tr loss: 0.0556265706173047,tr accurary: 0.9795
+val loss: 0.0572149167349050,val accuracy: 0.9784
+Time taken: 78.16 seconds
+estimated time to finish: 38 epochs
+Epoch: 14
+learning rate: 0.00015625
+Epoch 14: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0440, acc=0.9838]
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+13,0.055160747105814256,0.9797060020797921,0.05634178032914361,0.9788374848418183
+End of the epoch:
+tr loss: 0.0551607471058143,tr accurary: 0.9797
+val loss: 0.0563417803291436,val accuracy: 0.9788
+Time taken: 80.61 seconds
+estimated time to finish: 37 epochs
+Epoch: 15
+learning rate: 3.90625e-05
+Epoch 15: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0440, acc=0.9838]
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+14,0.054823594102882775,0.9798525566835283,0.05592792358372237,0.9790505000523159
+End of the epoch:
+tr loss: 0.0548235941028828,tr accurary: 0.9799
+val loss: 0.0559279235837224,val accuracy: 0.9791
+Time taken: 78.26 seconds
+estimated time to finish: 36 epochs
+Epoch: 16
+learning rate: 7.8125e-05
+Epoch 16: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0439, acc=0.9838]
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.64batch/s]
+15,0.054742971214373576,0.9798804087618903,0.0560017548255868,0.979004870404254
+End of the epoch:
+tr loss: 0.0547429712143736,tr accurary: 0.9799
+val loss: 0.0560017548255868,val accuracy: 0.9790
+Time taken: 78.12 seconds
+estimated time to finish: 35 epochs
+Epoch: 17
+learning rate: 1.953125e-05
+Epoch 17: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0438, acc=0.9839]
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+16,0.05461693547323159,0.9799300104670611,0.05581833151998101,0.9790997767186427
+End of the epoch:
+tr loss: 0.0546169354732316,tr accurary: 0.9799
+val loss: 0.0558183315199810,val accuracy: 0.9791
+Time taken: 80.65 seconds
+estimated time to finish: 34 epochs
+Epoch: 18
+learning rate: 3.90625e-05
+Epoch 18: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0438, acc=0.9839]
+Epoch 18: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+17,0.05458609593026808,0.9799430453461417,0.05578517352977952,0.9791142180725768
+End of the epoch:
+tr loss: 0.0545860959302681,tr accurary: 0.9799
+val loss: 0.0557851735297795,val accuracy: 0.9791
+Time taken: 78.08 seconds
+estimated time to finish: 33 epochs
+Epoch: 19
+learning rate: 9.765625e-06
+Epoch 19: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 19: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+18,0.054527213274809104,0.9799655398231836,0.05576236054792509,0.9791245932107443
+End of the epoch:
+tr loss: 0.0545272132748091,tr accurary: 0.9800
+val loss: 0.0557623605479251,val accuracy: 0.9791
+Time taken: 80.61 seconds
+estimated time to finish: 32 epochs
+Epoch: 20
+learning rate: 1.953125e-05
+Epoch 20: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 20: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+19,0.05450964683207009,0.9799722221938469,0.05573004746175075,0.9791421575860663
+End of the epoch:
+tr loss: 0.0545096468320701,tr accurary: 0.9800
+val loss: 0.0557300474617507,val accuracy: 0.9791
+Time taken: 78.09 seconds
+estimated time to finish: 31 epochs
+Epoch: 21
+learning rate: 4.8828125e-06
+Epoch 21: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 21: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+20,0.05448253453816995,0.9799823415163006,0.05572001578716131,0.9791481521103408
+End of the epoch:
+tr loss: 0.0544825345381700,tr accurary: 0.9800
+val loss: 0.0557200157871613,val accuracy: 0.9791
+Time taken: 78.12 seconds
+estimated time to finish: 30 epochs
+Epoch: 22
+learning rate: 9.765625e-06
+Epoch 22: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.42batch/s, loss=0.0437, acc=0.9839]
+Epoch 22: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+21,0.054473982783582585,0.979985661420197,0.055704572125450595,0.9791548802302434
+End of the epoch:
+tr loss: 0.0544739827835826,tr accurary: 0.9800
+val loss: 0.0557045721254506,val accuracy: 0.9792
+Time taken: 80.71 seconds
+estimated time to finish: 29 epochs
+Epoch: 23
+learning rate: 2.44140625e-06
+Epoch 23: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 23: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+22,0.0544607459802591,0.979990965817929,0.055698906613902734,0.9791576050140045
+End of the epoch:
+tr loss: 0.0544607459802591,tr accurary: 0.9800
+val loss: 0.0556989066139027,val accuracy: 0.9792
+Time taken: 78.15 seconds
+estimated time to finish: 28 epochs
+Epoch: 24
+learning rate: 4.8828125e-06
+Epoch 24: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 24: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.62batch/s]
+23,0.054456511915062594,0.979992796021359,0.05569212719961837,0.9791605813162667
+End of the epoch:
+tr loss: 0.0544565119150626,tr accurary: 0.9800
+val loss: 0.0556921271996184,val accuracy: 0.9792
+Time taken: 78.17 seconds
+estimated time to finish: 27 epochs
+Epoch: 25
+learning rate: 1.220703125e-06
+Epoch 25: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 25: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.10batch/s]
+24,0.05445029576681814,0.9799952753085638,0.05568971337525399,0.9791617760291467
+End of the epoch:
+tr loss: 0.0544502957668181,tr accurary: 0.9800
+val loss: 0.0556897133752540,val accuracy: 0.9792
+Time taken: 80.62 seconds
+estimated time to finish: 26 epochs
+Epoch: 26
+learning rate: 2.44140625e-06
+Epoch 26: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 26: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.12batch/s]
+25,0.054448299083957444,0.9799959456737737,0.055686411048684804,0.9791628240229009
+End of the epoch:
+tr loss: 0.0544482990839574,tr accurary: 0.9800
+val loss: 0.0556864110486848,val accuracy: 0.9792
+Time taken: 78.10 seconds
+estimated time to finish: 25 epochs
+Epoch: 27
+learning rate: 6.103515625e-07
+Epoch 27: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 27: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.56batch/s]
+26,0.05444547903920151,0.9799973608892166,0.05568561084814124,0.9791635156987788
+End of the epoch:
+tr loss: 0.0544454790392015,tr accurary: 0.9800
+val loss: 0.0556856108481412,val accuracy: 0.9792
+Time taken: 78.09 seconds
+estimated time to finish: 24 epochs
+Epoch: 28
+learning rate: 1.220703125e-06
+Epoch 28: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 28: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.08batch/s]
+27,0.054444696354151105,0.9799975524221338,0.05568450476442065,0.9791642492944068
+End of the epoch:
+tr loss: 0.0544446963541511,tr accurary: 0.9800
+val loss: 0.0556845047644206,val accuracy: 0.9792
+Time taken: 80.63 seconds
+estimated time to finish: 23 epochs
+Epoch: 29
+learning rate: 3.0517578125e-07
+Epoch 29: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 29: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.10batch/s]
+28,0.05444333966265496,0.9799982281077024,0.05568344649541509,0.9791645008129078
+End of the epoch:
+tr loss: 0.0544433396626550,tr accurary: 0.9800
+val loss: 0.0556834464954151,val accuracy: 0.9792
+Time taken: 78.16 seconds
+estimated time to finish: 22 epochs
+Epoch: 30
+learning rate: 6.103515625e-07
+Epoch 30: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 30: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.14batch/s]
+29,0.05444315696756045,0.9799982227873436,0.055683401955680535,0.9791646056122832
+End of the epoch:
+tr loss: 0.0544431569675604,tr accurary: 0.9800
+val loss: 0.0556834019556805,val accuracy: 0.9792
+Time taken: 80.67 seconds
+estimated time to finish: 21 epochs
+Epoch: 31
+learning rate: 1.52587890625e-07
+Epoch 31: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 31: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+30,0.05444258765279831,0.9799983504759551,0.055683136641324224,0.9791647104116586
+End of the epoch:
+tr loss: 0.0544425876527983,tr accurary: 0.9800
+val loss: 0.0556831366413242,val accuracy: 0.9792
+Time taken: 78.10 seconds
+estimated time to finish: 20 epochs
+Epoch: 32
+learning rate: 3.0517578125e-07
+Epoch 32: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 32: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+31,0.05444254308440197,0.9799984568831313,0.055683355491894945,0.9791643750536573
+End of the epoch:
+tr loss: 0.0544425430844020,tr accurary: 0.9800
+val loss: 0.0556833554918949,val accuracy: 0.9792
+Time taken: 78.17 seconds
+estimated time to finish: 19 epochs
+Epoch: 33
+learning rate: 7.62939453125e-08
+Epoch 33: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 33: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.11batch/s]
+32,0.05444230304477604,0.9799984728442076,0.05568336646307956,0.979164563692533
+End of the epoch:
+tr loss: 0.0544423030447760,tr accurary: 0.9800
+val loss: 0.0556833664630796,val accuracy: 0.9792
+Time taken: 80.66 seconds
+estimated time to finish: 18 epochs
+Epoch: 34
+learning rate: 1.52587890625e-07
+Epoch 34: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 34: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+33,0.0544422745517607,0.9799987867453773,0.05568326555274345,0.9791649409702846
+End of the epoch:
+tr loss: 0.0544422745517607,tr accurary: 0.9800
+val loss: 0.0556832655527435,val accuracy: 0.9792
+Time taken: 78.13 seconds
+estimated time to finish: 17 epochs
+Epoch: 35
+learning rate: 3.814697265625e-08
+Epoch 35: 100%|███████████████████████████████████████████| 180/180 [01:12<00:00,  2.47batch/s, loss=0.0437, acc=0.9839]
+Epoch 35: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+34,0.05444221125819527,0.9799987122603541,0.05568334804131435,0.9791646894517836
+End of the epoch:
+tr loss: 0.0544422112581953,tr accurary: 0.9800
+val loss: 0.0556833480413143,val accuracy: 0.9792
+Time taken: 79.47 seconds
+estimated time to finish: 16 epochs
+Epoch: 36
+learning rate: 7.62939453125e-08
+Epoch 36: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.53batch/s, loss=0.0437, acc=0.9839]
+Epoch 36: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:05<00:00,  7.70batch/s]
+35,0.05444221687990253,0.9799987548232245,0.05568337084336595,0.9791645846524082
+End of the epoch:
+tr loss: 0.0544422168799025,tr accurary: 0.9800
+val loss: 0.0556833708433659,val accuracy: 0.9792
+Time taken: 77.26 seconds
+estimated time to finish: 15 epochs
+Epoch: 37
+learning rate: 1.9073486328125e-08
+Epoch 37: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.42batch/s, loss=0.0437, acc=0.9839]
+Epoch 37: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.67batch/s]
+36,0.054442165816927554,0.9799988027064538,0.05568336355653438,0.9791650876894102
+End of the epoch:
+tr loss: 0.0544421658169276,tr accurary: 0.9800
+val loss: 0.0556833635565344,val accuracy: 0.9792
+Time taken: 80.45 seconds
+estimated time to finish: 14 epochs
+Epoch: 38
+learning rate: 3.814697265625e-08
+Epoch 38: 100%|███████████████████████████████████████████| 180/180 [01:18<00:00,  2.28batch/s, loss=0.0437, acc=0.9839]
+Epoch 38: 100%|██████████████████████████████████████████████████████████████████| 46/46 [-1:59:59<00:00, -42.86batch/s]
+37,0.054442173070072965,0.9799984994460017,0.05568333973105137,0.9791646475320334
+End of the epoch:
+tr loss: 0.0544421730700730,tr accurary: 0.9800
+val loss: 0.0556833397310514,val accuracy: 0.9792
+Time taken: 77.72 seconds
+estimated time to finish: 13 epochs
+Epoch: 39
+learning rate: 9.5367431640625e-09
+Epoch 39: 100%|███████████████████████████████████████████| 180/180 [01:12<00:00,  2.47batch/s, loss=0.0437, acc=0.9839]
+Epoch 39: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:05<00:00,  7.73batch/s]
+38,0.05444217354807395,0.9799988133471714,0.055683428032712624,0.979164542732658
+End of the epoch:
+tr loss: 0.0544421735480740,tr accurary: 0.9800
+val loss: 0.0556834280327126,val accuracy: 0.9792
+Time taken: 78.84 seconds
+estimated time to finish: 12 epochs
+Epoch: 40
+learning rate: 1.9073486328125e-08
+Epoch 40: 100%|███████████████████████████████████████████| 180/180 [01:15<00:00,  2.39batch/s, loss=0.0437, acc=0.9839]
+Epoch 40: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.61batch/s]
+39,0.05444217020206704,0.9799984462424136,0.055683340918231794,0.979164542732658
+End of the epoch:
+tr loss: 0.0544421702020670,tr accurary: 0.9800
+val loss: 0.0556833409182318,val accuracy: 0.9792
+Time taken: 79.19 seconds
+estimated time to finish: 11 epochs
+Epoch: 41
+learning rate: 4.76837158203125e-09
+Epoch 41: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 41: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+40,0.054442166627450966,0.9799986643771247,0.05568335733407146,0.9791647104116586
+End of the epoch:
+tr loss: 0.0544421666274510,tr accurary: 0.9800
+val loss: 0.0556833573340715,val accuracy: 0.9792
+Time taken: 80.65 seconds
+estimated time to finish: 10 epochs
+Epoch: 42
+learning rate: 9.5367431640625e-09
+Epoch 42: 100%|███████████████████████████████████████████| 180/180 [01:11<00:00,  2.51batch/s, loss=0.0437, acc=0.9839]
+Epoch 42: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.13batch/s]
+41,0.05444217429105374,0.9799988452693242,0.055683345175706424,0.9791647523314089
+End of the epoch:
+tr loss: 0.0544421742910537,tr accurary: 0.9800
+val loss: 0.0556833451757064,val accuracy: 0.9792
+Time taken: 78.08 seconds
+estimated time to finish: 9 epochs
+Epoch: 43
+learning rate: 2.384185791015625e-09
+Epoch 43: 100%|███████████████████████████████████████████| 180/180 [01:12<00:00,  2.47batch/s, loss=0.0437, acc=0.9839]
+Epoch 43: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.10batch/s]
+42,0.05444216356200986,0.9799986058531779,0.05568335581939299,0.9791648361709092
+End of the epoch:
+tr loss: 0.0544421635620099,tr accurary: 0.9800
+val loss: 0.0556833558193930,val accuracy: 0.9792
+Time taken: 79.34 seconds
+estimated time to finish: 8 epochs
+Epoch: 44
+learning rate: 4.76837158203125e-09
+Epoch 44: 100%|███████████████████████████████████████████| 180/180 [01:14<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 44: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.63batch/s]
+43,0.05444215229781269,0.9799987495028657,0.05568338296079373,0.9791645846524082
+End of the epoch:
+tr loss: 0.0544421522978127,tr accurary: 0.9800
+val loss: 0.0556833829607937,val accuracy: 0.9792
+Time taken: 78.04 seconds
+estimated time to finish: 7 epochs
+Epoch: 45
+learning rate: 1.1920928955078125e-09
+Epoch 45: 100%|███████████████████████████████████████████| 180/180 [01:16<00:00,  2.35batch/s, loss=0.0437, acc=0.9839]
+Epoch 45: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.09batch/s]
+44,0.05444218839727851,0.9799985420088722,0.055683366094644256,0.9791646265721583
+End of the epoch:
+tr loss: 0.0544421883972785,tr accurary: 0.9800
+val loss: 0.0556833660946443,val accuracy: 0.9792
+Time taken: 83.17 seconds
+estimated time to finish: 6 epochs
+Epoch: 46
+learning rate: 2.384185791015625e-09
+Epoch 46: 100%|███████████████████████████████████████████| 180/180 [01:13<00:00,  2.43batch/s, loss=0.0437, acc=0.9839]
+Epoch 46: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:06<00:00,  7.66batch/s]
+45,0.05444217991795666,0.9799985792513838,0.055683401300684436,0.9791648571307843
+End of the epoch:
+tr loss: 0.0544421799179567,tr accurary: 0.9800
+val loss: 0.0556834013006844,val accuracy: 0.9792
+Time taken: 79.95 seconds
+estimated time to finish: 5 epochs
+Epoch: 47
+learning rate: 5.960464477539063e-10
+Epoch 47: 100%|███████████████████████████████████████████| 180/180 [01:13<00:00,  2.46batch/s, loss=0.0437, acc=0.9839]
+Epoch 47: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:05<00:00,  7.68batch/s]
+46,0.054442162211137506,0.9799986803382011,0.055683389879190005,0.9791644379332826
+End of the epoch:
+tr loss: 0.0544421622111375,tr accurary: 0.9800
+val loss: 0.0556833898791900,val accuracy: 0.9792
+Time taken: 79.06 seconds
+estimated time to finish: 4 epochs
+Epoch: 48
+learning rate: 1.1920928955078125e-09
+Epoch 48: 100%|███████████████████████████████████████████| 180/180 [01:12<00:00,  2.48batch/s, loss=0.0437, acc=0.9839]
+Epoch 48: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:05<00:00,  7.70batch/s]
+47,0.05444217583416562,0.9799988399489654,0.055683347140694714,0.9791644588931576
+End of the epoch:
+tr loss: 0.0544421758341656,tr accurary: 0.9800
+val loss: 0.0556833471406947,val accuracy: 0.9792
+Time taken: 78.67 seconds
+estimated time to finish: 3 epochs
+Epoch: 49
+learning rate: 2.9802322387695313e-10
+Epoch 49: 100%|███████████████████████████████████████████| 180/180 [01:08<00:00,  2.63batch/s, loss=0.0437, acc=0.9839]
+Epoch 49: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:05<00:00,  7.69batch/s]
+48,0.05444217218161461,0.9799989037932711,0.055683357948130306,0.9791643540937822
+End of the epoch:
+tr loss: 0.0544421721816146,tr accurary: 0.9800
+val loss: 0.0556833579481303,val accuracy: 0.9792
+Time taken: 74.37 seconds
+estimated time to finish: 2 epochs
+Epoch: 50
+learning rate: 5.960464477539063e-10
+Epoch 50: 100%|███████████████████████████████████████████| 180/180 [01:15<00:00,  2.39batch/s, loss=0.0437, acc=0.9839]
+Epoch 50: 100%|██████████████████████████████████████████████████████████████████████| 46/46 [00:03<00:00, 11.59batch/s]
+49,0.05444217235307148,0.9799986803382011,0.05568336478465206,0.9791645846524082
+End of the epoch:
+tr loss: 0.0544421723530715,tr accurary: 0.9800
+val loss: 0.0556833647846521,val accuracy: 0.9792
+Time taken: 79.20 seconds
+estimated time to finish: 1 epochs
